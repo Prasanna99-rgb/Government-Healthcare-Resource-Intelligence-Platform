@@ -1,0 +1,611 @@
+district,state,healthcare_priority_score,priority_level,government_recommendation
+THANE,MAHARASHTRA,43.14299975516104,Medium,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+NORTH TWENTY FOUR PARGANAS,WEST BENGAL,28.48868478484643,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+BANGALORE,KARNATAKA,66.64093954590193,High,Recruit Additional Doctors & Nurses | Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+PUNE,MAHARASHTRA,38.71448533381511,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+MUMBAI SUBURBAN,MAHARASHTRA,54.22917255985481,Medium,Recruit Additional Doctors & Nurses | Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+SOUTH TWENTY FOUR PARGANAS,WEST BENGAL,28.474635054142844,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+BARDDHAMAN,WEST BENGAL,28.479487457938223,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+AHMADABAD,GUJARAT,65.71604062510022,High,Recruit Additional Doctors & Nurses | Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+MURSHIDABAD,WEST BENGAL,32.88977538028814,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+JAIPUR,RAJASTHAN,24.06522772056978,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+NASHIK,MAHARASHTRA,30.69298808881212,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+SURAT,GUJARAT,46.16810015933165,Medium,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+ALLAHABAD,UTTAR PRADESH,30.060990145166876,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+PASCHIM MEDINIPUR,WEST BENGAL,34.55333187785742,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+PATNA,BIHAR,35.52646105444079,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+HUGLI,WEST BENGAL,48.17930057769488,Medium,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+RANGAREDDY,ANDHRA PRADESH,44.96979899298342,Medium,Recruit Additional Doctors & Nurses | Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+NADIA,WEST BENGAL,46.10636085941236,Medium,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+EAST GODAVARI,ANDHRA PRADESH,40.630678395989165,Medium,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+PURBI CHAMPARAN,BIHAR,44.35433398514596,Medium,Recruit Additional Doctors & Nurses | Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+PURBA MEDINIPUR,WEST BENGAL,28.786785265120823,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+GUNTUR,ANDHRA PRADESH,42.48596606209097,Medium,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+HAORA,WEST BENGAL,43.98452655045244,Medium,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+MUZAFFARPUR,BIHAR,33.541574349231404,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+BELGAUM,KARNATAKA,26.948044498751734,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+MORADABAD,UTTAR PRADESH,26.577844693630396,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+GHAZIABAD,UTTAR PRADESH,26.87197344534275,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+NAGPUR,MAHARASHTRA,23.23572378998823,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+CHENNAI,TAMIL NADU,38.455783147250735,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+AZAMGARH,UTTAR PRADESH,28.74849559577154,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+LUCKNOW,UTTAR PRADESH,27.79282584646326,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+KANPUR NAGAR,UTTAR PRADESH,27.75955470702348,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+AHMADNAGAR,MAHARASHTRA,39.21415077372897,Low,Recruit Additional Doctors & Nurses | Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+KRISHNA,ANDHRA PRADESH,43.159169409038746,Medium,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+KOLKATA,WEST BENGAL,56.207340431839725,Medium,Recruit Additional Doctors & Nurses | Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+JAUNPUR,UTTAR PRADESH,24.613559880120597,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+MADHUBANI,BIHAR,34.90120336269637,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+SITAPUR,UTTAR PRADESH,33.95367405271067,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+BAREILLY,UTTAR PRADESH,34.90143404790878,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+GORAKHPUR,UTTAR PRADESH,28.504527663337225,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+AGRA,UTTAR PRADESH,30.283310763883296,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+GAYA,BIHAR,35.33668558303986,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+SOLAPUR,MAHARASHTRA,26.413514259299024,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+VISAKHAPATNAM,ANDHRA PRADESH,57.427235411891296,Medium,Recruit Additional Doctors & Nurses | Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+SAMASTIPUR,BIHAR,35.43460981823317,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+JALGAON,MAHARASHTRA,45.11210052142426,Medium,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+CHITTOOR,ANDHRA PRADESH,40.32040390914792,Medium,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+VADODARA,GUJARAT,48.620634225071306,Medium,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+MUZAFFARNAGAR,UTTAR PRADESH,26.88605261096768,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+MALAPPURAM,KERALA,18.01559377330606,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+HARDOI,UTTAR PRADESH,34.77071216576733,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+ANANTAPUR,ANDHRA PRADESH,44.63869162035397,Medium,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+RAIPUR,CHHATTISGARH,28.250900228541592,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+KURNOOL,ANDHRA PRADESH,34.50998692946177,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+MAHBUBNAGAR,ANDHRA PRADESH,41.09149007423923,Medium,Recruit Additional Doctors & Nurses | Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+KHERI,UTTAR PRADESH,44.91589501657485,Medium,Recruit Additional Doctors & Nurses | Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+KANCHEEPURAM,TAMIL NADU,38.24176250773398,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+MALDAH,WEST BENGAL,31.79219113660642,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+SARAN,BIHAR,35.06042292160861,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+HYDERABAD,ANDHRA PRADESH,40.74939356167497,Medium,Recruit Additional Doctors & Nurses | Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+DARBHANGA,BIHAR,37.03062152006126,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+WEST GODAVARI,ANDHRA PRADESH,43.41964183914495,Medium,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+VELLORE,TAMIL NADU,21.09318653732892,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+PASHCHIM CHAMPARAN,BIHAR,45.41514071008488,Medium,Recruit Additional Doctors & Nurses | Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+KOLHAPUR,MAHARASHTRA,39.16789571336945,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+JALPAIGURI,WEST BENGAL,27.926696715063816,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+RAJKOT,GUJARAT,44.238028665043615,Medium,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+SULTANPUR,UTTAR PRADESH,26.7872945030514,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+KARIMNAGAR,ANDHRA PRADESH,40.22846387925476,Medium,Recruit Additional Doctors & Nurses | Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+THIRUVALLUR,TAMIL NADU,39.53831746241468,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+AURANGABAD,MAHARASHTRA,29.80379453759597,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+JODHPUR,RAJASTHAN,24.84369321670776,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+BIJNOR,UTTAR PRADESH,24.707383515657718,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+BUDAUN,UTTAR PRADESH,35.848269563612426,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+VARANASI,UTTAR PRADESH,24.698404377216097,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+ALWAR,RAJASTHAN,30.1291330003764,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+ALIGARH,UTTAR PRADESH,30.01064352326889,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+NORTH WEST DELHI,DELHI,39.85510609748257,Low,Recruit Additional Doctors & Nurses | Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+GHAZIPUR,UTTAR PRADESH,29.98116142857523,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+BANKURA,WEST BENGAL,49.18302260007538,Medium,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+KUSHINAGAR,UTTAR PRADESH,28.36734265599373,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+GANJAM,ORISSA,23.86948859038511,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+WARANGAL,ANDHRA PRADESH,39.40618179833223,Low,Recruit Additional Doctors & Nurses | Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+BIRBHUM,WEST BENGAL,33.57351501180468,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+BULANDSHAHAR,UTTAR PRADESH,28.483630495394745,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+LUDHIANA,PUNJAB,40.54651552358465,Medium,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+VAISHALI,BIHAR,34.27171521481816,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+NALGONDA,ANDHRA PRADESH,39.33206842324344,Low,Recruit Additional Doctors & Nurses | Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+BAHRAICH,UTTAR PRADESH,37.14609542366033,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+SALEM,TAMIL NADU,37.070569948280166,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+SAHARANPUR,UTTAR PRADESH,23.490082983424827,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+VILUPPURAM,TAMIL NADU,41.890106139888935,Medium,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+COIMBATORE,TAMIL NADU,38.29596075782474,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+MEERUT,UTTAR PRADESH,24.75644658209957,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+GONDA,UTTAR PRADESH,31.879463644399035,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+SITAMARHI,BIHAR,38.81296907719876,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+RAE BARELI,UTTAR PRADESH,29.664688982862565,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+PRAKASAM,ANDHRA PRADESH,40.03075370707928,Medium,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+NANDED,MAHARASHTRA,29.372119756837805,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+DURG,CHHATTISGARH,25.36341030440095,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+SIWAN,BIHAR,29.38727669217638,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+NAGAUR,RAJASTHAN,25.17694937001705,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+THIRUVANANTHAPURAM,KERALA,32.37923121773195,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+ERNAKULAM,KERALA,32.957123569062226,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+INDORE,MADHYA PRADESH,22.91056436716874,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+PURNIA,BIHAR,39.75012384721825,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+BARABANKI,UTTAR PRADESH,28.476619344485144,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+BALLIA,UTTAR PRADESH,32.32625138014696,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+PRATAPGARH,UTTAR PRADESH,27.26887130135589,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+THRISSUR,KERALA,20.08491478601421,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+BANASKANTHA,GUJARAT,38.1835777266758,Low,Recruit Additional Doctors & Nurses | Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+UNNAO,UTTAR PRADESH,40.98800318388954,Medium,Recruit Additional Doctors & Nurses | Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+DEORIA,UTTAR PRADESH,26.322389480565278,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+KOZHIKODE,KERALA,42.31194810549432,Medium,Recruit Additional Doctors & Nurses | Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+MUMBAI CITY,MAHARASHTRA,38.07413989696482,Low,Recruit Additional Doctors & Nurses | Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+TIRUNELVELI,TAMIL NADU,40.31487867798639,Medium,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+KATIHAR,BIHAR,39.13071877576474,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+UDAIPUR,RAJASTHAN,28.02565199358568,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+MADURAI,TAMIL NADU,39.335878840487545,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+BHAGALPUR,BIHAR,37.1515232648137,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+SIKAR,RAJASTHAN,23.54817656582186,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+BILASPUR,CHHATTISGARH,30.876397583394443,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+KOLLAM,KERALA,33.19398820943018,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+RAIGARH,MAHARASHTRA,43.89200954853458,Medium,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+FATEHPUR,UTTAR PRADESH,36.60050394751415,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+CUTTACK,ORISSA,41.80916712149157,Medium,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+CUDDALORE,TAMIL NADU,39.52997630657326,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+BARMER,RAJASTHAN,26.02484562245408,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+BULDANA,MAHARASHTRA,47.01443584621175,Medium,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+BID,MAHARASHTRA,28.32732621334558,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+AJMER,RAJASTHAN,25.16494054853405,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+GULBARGA,KARNATAKA,29.733449206991757,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+GOPALGANJ,BIHAR,29.80908844337279,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+SIDDHARTH NAGAR,UTTAR PRADESH,28.480908021818703,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+NIZAMABAD,ANDHRA PRADESH,36.40871410010717,Low,Recruit Additional Doctors & Nurses | Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+BHARATPUR,RAJASTHAN,32.70723324404947,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+MATHURA,UTTAR PRADESH,30.509512587141614,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+WEST DELHI,DELHI,36.38348056490212,Low,Recruit Additional Doctors & Nurses | Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+AURANGABAD,BIHAR,32.94442554213303,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+KANNUR,KERALA,18.0891635192492,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+MAYURBHANJ,ORISSA,33.96510698392122,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+FIROZABAD,UTTAR PRADESH,31.741192809239628,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+MIRZAPUR,UTTAR PRADESH,27.62269845477959,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+AMRITSAR,PUNJAB,36.906664955220975,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+TIRUPPUR,TAMIL NADU,31.28057079284044,Low,Recruit Additional Doctors & Nurses | Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+FAIZABAD,UTTAR PRADESH,28.011356744471865,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+TIRUVANNAMALAI,TAMIL NADU,50.07736840685549,Medium,Recruit Additional Doctors & Nurses | Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+BASTI,UTTAR PRADESH,27.57123935023347,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+JABALPUR,MADHYA PRADESH,17.80712683804264,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+LATUR,MAHARASHTRA,26.848783349667237,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+BELLARY,KARNATAKA,45.00491170092458,Medium,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+GIRIDIH,JHARKHAND,33.93570848617468,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+SABARKANTHA,GUJARAT,36.02595143175831,Low,Recruit Additional Doctors & Nurses | Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+BHILWARA,RAJASTHAN,24.921062218669256,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+THANJAVUR,TAMIL NADU,39.00897711089312,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+AMBEDKAR NAGAR,UTTAR PRADESH,27.080670119961088,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+PANCHMAHAL,GUJARAT,35.90803797813639,Low,Recruit Additional Doctors & Nurses | Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+SAGAR,MADHYA PRADESH,29.49036700039647,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+BHOPAL,MADHYA PRADESH,25.22708287314012,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+REWA,MADHYA PRADESH,32.46778564120996,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+BIKANER,RAJASTHAN,28.347497985860343,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+SURGUJA,CHHATTISGARH,27.68771888728446,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+VIZIANAGARAM,ANDHRA PRADESH,46.20791246971265,Medium,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+RAMPUR,UTTAR PRADESH,30.827972800004623,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+BALESHWAR,ORISSA,24.99830789555377,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+KHEDA,GUJARAT,34.49778346545839,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+GURDASPUR,PUNJAB,23.86157100022675,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+PURBI SINGHBHUM,JHARKHAND,30.23852399567984,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+SOUTH WEST DELHI,DELHI,35.60300906727535,Low,Recruit Additional Doctors & Nurses | Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+ERODE,TAMIL NADU,40.766288754964734,Medium,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+KHORDHA,ORISSA,41.33403092731353,Medium,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+NORTH EAST DELHI,DELHI,35.44293265894415,Low,Recruit Additional Doctors & Nurses | Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+SUPAUL,BIHAR,36.234921328167474,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+SATNA,MADHYA PRADESH,46.5564312332986,Medium,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+NAWADA,BIHAR,36.68603018182032,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+MAU,UTTAR PRADESH,33.35141290350196,Low,Recruit Additional Doctors & Nurses | Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+CHANDRAPUR,MAHARASHTRA,45.50875870119961,Medium,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+JALANDHAR,PUNJAB,40.99105771098663,Medium,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+DHAR,MADHYA PRADESH,42.58040419714491,Medium,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+BIJAPUR,KARNATAKA,31.08152756725385,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+JAMNAGAR,GUJARAT,40.09527678481124,Medium,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+DINDIGUL,TAMIL NADU,20.41964693736501,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+BALRAMPUR,UTTAR PRADESH,35.50707077092524,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+JHUNJHUNUN,RAJASTHAN,23.67864112093355,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+ALAPPUZHA,KERALA,31.241070652076537,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+DOHAD,GUJARAT,46.00831793622297,Medium,Recruit Additional Doctors & Nurses | Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+SUNDARGARH,ORISSA,46.92380676155619,Medium,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+ANAND,GUJARAT,47.51382049375791,Medium,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+KACHCHH,GUJARAT,28.52417018402107,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+CHHINDWARA,MADHYA PRADESH,44.43843335239826,Medium,Recruit Additional Doctors & Nurses | Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+DAKSHINA KANNADA,KARNATAKA,36.52026021668416,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+BOKARO,JHARKHAND,33.03388970121142,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+DHULE,MAHARASHTRA,34.57118309028719,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+CHURU,RAJASTHAN,27.34974288092344,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+PALI,RAJASTHAN,27.92037315223756,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+MAHESANA,GUJARAT,47.12151975013008,Medium,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+BANKA,BIHAR,35.39978724238362,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+GWALIOR,MADHYA PRADESH,29.317418121930444,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+PILIBHIT,UTTAR PRADESH,29.899104422599265,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+FIROZPUR,PUNJAB,28.02352048781445,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+MADHEPURA,BIHAR,38.007418037638296,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+JHANSI,UTTAR PRADESH,30.75281929017644,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+UJJAIN,MADHYA PRADESH,26.99452546088828,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+KOTTAYAM,KERALA,19.95336085961113,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+GANGANAGAR,RAJASTHAN,25.58413202857238,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+MORENA,MADHYA PRADESH,31.79202688732221,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+JALNA,MAHARASHTRA,32.349140379234896,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+CHANDAULI,UTTAR PRADESH,28.946823129767363,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+KOTA,RAJASTHAN,23.971325615998264,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+DHUBRI,ASSAM,35.55792718056965,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+DAVANAGERE,KARNATAKA,43.00281562900573,Medium,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+VIRUDHUNAGAR,TAMIL NADU,40.341934933098486,Medium,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+PALAMU,JHARKHAND,33.272269754833,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+RAICHUR,KARNATAKA,32.01336262634252,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+SONITPUR,ASSAM,30.42273996165992,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+SAHARSA,BIHAR,38.96102572772028,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+PATIALA,PUNJAB,41.036349771414905,Medium,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+HARIDWAR,UTTARAKHAND,34.347768542398946,Low,Recruit Additional Doctors & Nurses | Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+BAGALKOT,KARNATAKA,34.710908227239635,Low,Recruit Additional Doctors & Nurses | Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+FARRUKHABAD,UTTAR PRADESH,33.6381848289178,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+KRISHNAGIRI,TAMIL NADU,20.544793245032896,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+WEST NIMAR,MADHYA PRADESH,34.29358442132592,Low,Recruit Additional Doctors & Nurses | Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+KANNIYAKUMARI,TAMIL NADU,36.15586818548441,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+MAINPURI,UTTAR PRADESH,31.1476082399318,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+SONBHADRA,UTTAR PRADESH,30.7021189152336,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+DHARWAD,KARNATAKA,44.35034905238791,Medium,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+DARJILING,WEST BENGAL,25.839730635951,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+JYOTIBA PHULE NAGAR,UTTAR PRADESH,30.17172022731629,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+PARBHANI,MAHARASHTRA,33.658910961679105,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+JALOR,RAJASTHAN,31.025014851327366,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+JAJAPUR,ORISSA,26.411290500637048,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+AKOLA,MAHARASHTRA,25.792690401732205,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+FARIDABAD,HARYANA,25.95875247508372,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+MANDYA,KARNATAKA,38.832462194354605,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+KENDUJHAR,ORISSA,37.90475641346447,Low,Recruit Additional Doctors & Nurses | Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+BANDA,UTTAR PRADESH,34.56284425654106,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+BANSWARA,RAJASTHAN,29.82256405560493,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+RAMABAI NAGAR,UTTAR PRADESH,34.05390325685106,Low,Recruit Additional Doctors & Nurses | Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+HASSAN,KARNATAKA,39.32676506307431,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+HANUMANGARH,RAJASTHAN,26.412516842671096,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+ETAH,UTTAR PRADESH,34.00114354455512,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+CHHATTARPUR,MADHYA PRADESH,33.94847560092576,Low,Recruit Additional Doctors & Nurses | Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+JAMUI,BIHAR,39.024724436283975,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+SURENDRANAGAR,GUJARAT,31.63584723594669,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+SHIMOGA,KARNATAKA,40.64868075594862,Medium,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+THOOTHUKKUDI,TAMIL NADU,46.043749169990654,Medium,Recruit Additional Doctors & Nurses | Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+HISAR,HARYANA,25.86572480280751,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+CACHAR,ASSAM,30.516755578714623,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+HAZARIBAGH,JHARKHAND,31.157508642059398,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+NAMAKKAL,TAMIL NADU,37.7452454873011,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+SHIVPURI,MADHYA PRADESH,30.611505399377453,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+WEST TRIPURA,TRIPURA,44.41058449953728,Medium,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+SANT KABIR NAGAR,UTTAR PRADESH,27.98172338435775,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+EAST DELHI,DELHI,33.78311362139183,Low,Recruit Additional Doctors & Nurses | Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+BUXAR,BIHAR,34.36188810417121,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+VALSAD,GUJARAT,29.689944987564694,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+BIDAR,KARNATAKA,28.889084175447373,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+BHIND,MADHYA PRADESH,31.042080568972096,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+BALAGHAT,MADHYA PRADESH,45.98007703437165,Medium,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+PURI,ORISSA,39.81719165162704,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+DEHRADUN,UTTARAKHAND,37.24642357133688,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+BARPETA,ASSAM,31.886009476171484,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+KISHANGANJ,BIHAR,38.52834268689581,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+JALAUN,UTTAR PRADESH,29.15770082931272,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+DAKSHIN DINAJPUR,WEST BENGAL,31.21028018501386,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+KHAGARIA,BIHAR,35.01017024032242,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+CHITRADURGA,KARNATAKA,42.17428650264468,Medium,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+OSMANABAD,MAHARASHTRA,23.81262797467972,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+KANNAUJ,UTTAR PRADESH,35.46845112402902,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+SANGRUR,PUNJAB,41.16904037355174,Medium,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+BALANGIR,ORISSA,45.61217026292424,Medium,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+UDHAM SINGH NAGAR,UTTARAKHAND,24.56844392698225,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+NANDURBAR,MAHARASHTRA,36.97313787610624,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+GAUTAM BUDDHA NAGAR,UTTAR PRADESH,27.66148953420044,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+BHIWANI,HARYANA,28.13033302298184,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+DAUSA,RAJASTHAN,28.951277996315035,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+KAIMUR,BIHAR,33.524410637249304,Low,Recruit Additional Doctors & Nurses | Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+JANJGIR CHAMPA,CHHATTISGARH,28.46909968821092,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+PUDUKKOTTAI,TAMIL NADU,25.280282055646317,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+NAGAPATTINAM,TAMIL NADU,43.006234007189946,Medium,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+RATNAGIRI,MAHARASHTRA,38.443067764799146,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+KAUSHAMBI,UTTAR PRADESH,32.26585171279082,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+HAVERI,KARNATAKA,24.857928260710576,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+HOSHIARPUR,PUNJAB,39.01381980818367,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+ETAWAH,UTTAR PRADESH,28.658069434194385,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+SANT RAVIDAS NAGAR,UTTAR PRADESH,28.479408952518718,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+KALAHANDI,ORISSA,47.020170770919286,Medium,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+BETUL,MADHYA PRADESH,26.99200608815046,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+MAHAMAYA NAGAR,UTTAR PRADESH,36.09021829322496,Low,Recruit Additional Doctors & Nurses | Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+DEWAS,MADHYA PRADESH,27.217872683884224,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+BHARUCH,GUJARAT,49.5797273226931,Medium,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+RAJGARH,MADHYA PRADESH,28.125186470611407,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+CHITTAURGARH,RAJASTHAN,24.32362407714253,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+RAJNANDGAON,CHHATTISGARH,24.8857190424314,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+KOLAR,KARNATAKA,38.058966793541934,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+JAMMU,JAMMU AND KASHMIR,41.444931863157805,Medium,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+KAMRUP,ASSAM,35.178623288947016,Low,Recruit Additional Doctors & Nurses | Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+GURGAON,HARYANA,40.77753393544172,Medium,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+AMRELI,GUJARAT,39.55964215410638,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+SHAJAPUR,MADHYA PRADESH,23.86739907529883,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+KANGRA,HIMACHAL PRADESH,43.774067510290685,Medium,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+DHARMAPURI,TAMIL NADU,20.16879815311133,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+BHADRAK,ORISSA,27.22726551695791,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+KARNAL,HARYANA,24.31369094164004,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+PASHCHIMI SINGHBHUM,JHARKHAND,41.62830653018671,Medium,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+RAIGARH,CHHATTISGARH,28.54576979058701,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+DEOGHAR,JHARKHAND,39.47534473618954,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+BARGARH,ORISSA,27.12827662998918,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+VIDISHA,MADHYA PRADESH,25.56742650756771,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+KARAULI,RAJASTHAN,30.93236191693661,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+RATLAM,MADHYA PRADESH,26.79373929607573,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+SONIPAT,HARYANA,38.48784665433489,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+TIKAMGARH,MADHYA PRADESH,42.18018897496128,Medium,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+KENDRAPARA,ORISSA,40.830460064783495,Medium,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+UTTARA KANNADA,KARNATAKA,22.355532448241693,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+KANSHIRAM NAGAR,UTTAR PRADESH,39.91789202093342,Low,Recruit Additional Doctors & Nurses | Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+TONK,RAJASTHAN,28.021381442852636,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+BASTAR,CHHATTISGARH,41.441942075130136,Medium,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+JHALAWAR,RAJASTHAN,28.0506883192221,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+GANDHINAGAR,GUJARAT,47.03378399677518,Medium,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+KOPPAL,KARNATAKA,32.041889876059045,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+DUNGARPUR,RAJASTHAN,30.711549579748286,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+BATHINDA,PUNJAB,41.58174923627136,Medium,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+BARWANI,MADHYA PRADESH,33.27902212961461,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+KORAPUT,ORISSA,30.495671493448384,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+AURAIYA,UTTAR PRADESH,24.76908642026912,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+SEONI,MADHYA PRADESH,26.05944946991357,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+MUNGER,BIHAR,33.817344309759825,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+RAMANATHAPURAM,TAMIL NADU,21.847065852809976,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+PATAN,GUJARAT,30.94758355410861,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+MANDSAUR,MADHYA PRADESH,27.182714953152352,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+SIVAGANGA,TAMIL NADU,40.16603564916131,Medium,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+SAWAI MADHOPUR,RAJASTHAN,30.388578241133352,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+JIND,HARYANA,25.93765299757203,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+RAISEN,MADHYA PRADESH,27.440205688552226,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+NAVSARI,GUJARAT,28.28242882437105,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+TINSUKIA,ASSAM,47.77231651362285,Medium,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+DIBRUGARH,ASSAM,45.94212329654333,Medium,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+GARHWA,JHARKHAND,34.62632755258482,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+GONDIYA,MAHARASHTRA,44.78318611750937,Medium,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+DUMKA,JHARKHAND,37.77706841609275,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+GODDA,JHARKHAND,37.2611879826282,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+SEHORE,MADHYA PRADESH,26.194768682141888,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+EAST NIMAR,MADHYA PRADESH,32.538010790898966,Low,Recruit Additional Doctors & Nurses | Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+KASARAGOD,KERALA,16.6482041187523,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+BAGHPAT,UTTAR PRADESH,30.12695220019642,Low,Recruit Additional Doctors & Nurses | Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+WARDHA,MAHARASHTRA,42.928750293871545,Medium,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+SIRSA,HARYANA,27.70277262575483,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+KATNI,MADHYA PRADESH,48.82941855764201,Medium,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+ANUGUL,ORISSA,30.077663872477785,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+THIRUVARUR,TAMIL NADU,40.33151856962749,Medium,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+DAMOH,MADHYA PRADESH,30.260249424119117,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+CHIKKABALLAPURA,KARNATAKA,42.65348292341734,Medium,Recruit Additional Doctors & Nurses | Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+KAMRUP METROPOLITAN,ASSAM,46.29934885615712,Medium,Recruit Additional Doctors & Nurses | Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+THENI,TAMIL NADU,17.195274369222577,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+GUNA,MADHYA PRADESH,26.39865845081481,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+HOSHANGABAD,MADHYA PRADESH,28.17910208536183,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+SRINAGAR,JAMMU AND KASHMIR,40.717427961844585,Medium,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+KARIMGANJ,ASSAM,30.09269161815009,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+BARAN,RAJASTHAN,30.404790731562887,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+LALITPUR,UTTAR PRADESH,28.4078666869432,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+NABARANGAPUR,ORISSA,34.15219954889569,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+YAMUNANAGAR,HARYANA,24.49420081267914,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+KORBA,CHHATTISGARH,45.8098904062119,Medium,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+DHAULPUR,RAJASTHAN,32.895813535787376,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+PANIPAT,HARYANA,26.65288314259587,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+BHANDARA,MAHARASHTRA,44.21770180769322,Medium,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+PATHANAMTHITTA,KERALA,17.775229488800914,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+WASHIM,MAHARASHTRA,29.34549023884104,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+DHENKANAL,ORISSA,45.77934054833891,Medium,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+SINGRAULI,MADHYA PRADESH,34.43890824047771,Low,Recruit Additional Doctors & Nurses | Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+UDUPI,KARNATAKA,20.663223363979423,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+HINGOLI,MAHARASHTRA,27.774133959053504,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+YADGIR,KARNATAKA,34.20576523001566,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+RAJSAMAND,RAJASTHAN,27.971896729590085,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+SIVASAGAR,ASSAM,46.27629886495312,Medium,Recruit Additional Doctors & Nurses | Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+SAHIBGANJ,JHARKHAND,39.934497748833365,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+CHIKMAGALUR,KARNATAKA,38.70747296547015,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+JAGATSINGHAPUR,ORISSA,42.47910124433368,Medium,Recruit Additional Doctors & Nurses | Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+AMBALA,HARYANA,21.08353050032498,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+SIDHI,MADHYA PRADESH,30.05087349790381,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+JEHANABAD,BIHAR,36.87802344425622,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+TARN TARAN,PUNJAB,25.899966102884385,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+SHRAWASTI,UTTAR PRADESH,34.533085752923455,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+BUNDI,RAJASTHAN,28.10278773297574,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+IDUKKI,KERALA,35.062028103812644,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+HAMIRPUR,UTTAR PRADESH,28.57472662083711,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+JORHAT,ASSAM,31.656187191594505,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+NARSIMHAPUR,MADHYA PRADESH,27.963210423900957,Low,Recruit Additional Doctors & Nurses | Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+MEWAT,HARYANA,37.30004989039515,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+RAMANAGARA,KARNATAKA,41.36153629628062,Medium,Recruit Additional Doctors & Nurses | Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+ANANTNAG,JAMMU AND KASHMIR,46.5196583594368,Medium,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+KAITHAL,HARYANA,43.19581524043377,Medium,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+GADCHIROLI,MAHARASHTRA,46.94483476054455,Medium,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+GOLAGHAT,ASSAM,45.93528169687241,Medium,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+SHAHDOL,MADHYA PRADESH,29.99450423052144,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+SARAIKELA KHARSAWAN,JHARKHAND,31.77400408144356,Low,Recruit Additional Doctors & Nurses | Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+GADAG,KARNATAKA,29.22455394938785,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+KARUR,TAMIL NADU,44.44073404804546,Medium,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+ROHTAK,HARYANA,26.47556589085232,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+CHANDIGARH,CHANDIGARH,41.09793657444175,Medium,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+MANDLA,MADHYA PRADESH,28.655009347949484,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+CHATRA,JHARKHAND,33.73619367450398,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+PALWAL,HARYANA,28.972413098207856,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+LAKHIMPUR,ASSAM,30.9962296806243,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+SAMBALPUR,ORISSA,47.82819160693748,Medium,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+SIROHI,RAJASTHAN,28.84299026305836,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+MAHASAMUND,CHHATTISGARH,28.71719092310327,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+GUMLA,JHARKHAND,30.81750786234729,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+JHABUA,MADHYA PRADESH,33.26137680930431,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+CHAMARAJANAGAR,KARNATAKA,44.73290914451989,Medium,Recruit Additional Doctors & Nurses | Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+PANNA,MADHYA PRADESH,34.57989840771442,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+GOALPARA,ASSAM,32.19804521075252,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+BARAMULA,JAMMU AND KASHMIR,28.82124201351276,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+LAKHISARAI,BIHAR,38.37777821396341,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+MANDI,HIMACHAL PRADESH,40.79696930397076,Medium,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+MOGA,PUNJAB,40.39340815618767,Medium,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+MOHALI,PUNJAB,31.554386259221456,Low,Recruit Additional Doctors & Nurses | Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+CHITRAKOOT,UTTAR PRADESH,32.83652002318461,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+BANGALORE RURAL,KARNATAKA,21.217326991921816,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+RAYAGADA,ORISSA,34.46943144807618,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+KURUKSHETRA,HARYANA,25.74176483072414,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+NAYAGARH,ORISSA,41.986761120343466,Medium,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+JHAJJAR,HARYANA,21.343146875011232,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+MORIGAON,ASSAM,34.68502581997692,Low,Recruit Additional Doctors & Nurses | Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+KARBI ANGLONG,ASSAM,29.94583968416744,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+NAINITAL,UTTARAKHAND,20.395525081832968,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+PUDUCHERRY,PUDUCHERRY,40.16414699218574,Medium,Recruit Additional Doctors & Nurses | Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+BAKSA,ASSAM,33.89829242864976,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+RAMGARH,JHARKHAND,31.083229875007746,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+FATEHABAD,HARYANA,26.03100551691818,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+DARRANG,ASSAM,35.448375829937554,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+MAHENDRAGARH,HARYANA,25.685121700591026,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+MUKTSAR,PUNJAB,42.69147938122997,Medium,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+PAKUR,JHARKHAND,46.09195323598762,Medium,Recruit Additional Doctors & Nurses | Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+REWARI,HARYANA,25.27330591317801,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+NORTH DELHI,DELHI,31.2218162481465,Low,Recruit Additional Doctors & Nurses | Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+KOKRAJHAR,ASSAM,33.31491265649122,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+SOUTH TRIPURA,TRIPURA,40.57399560042644,Medium,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+MAHOBA,UTTAR PRADESH,29.088127932273785,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+KUPWARA,JAMMU AND KASHMIR,27.002741220050936,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+PRATAPGARH,RAJASTHAN,28.47234819116869,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+JASHPUR,CHHATTISGARH,28.6612589945832,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+SINDHUDURG,MAHARASHTRA,37.65624546573593,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+ASHOKNAGAR,MADHYA PRADESH,30.32054151694068,Low,Recruit Additional Doctors & Nurses | Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+UDALGURI,ASSAM,46.30773240292634,Medium,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+NEEMUCH,MADHYA PRADESH,25.247129301789613,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+EAST KHASI HILLS,MEGHALAYA,30.061319077463583,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+KABIRDHAM,CHHATTISGARH,31.017715241443472,Low,Recruit Additional Doctors & Nurses | Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+NORTH GOA,GOA,35.55754164896465,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+WAYANAD,KERALA,33.85911926270304,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+KAPURTHALA,PUNJAB,25.57499398232007,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+SHIMLA,HIMACHAL PRADESH,38.52754253097368,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+TAPI,GUJARAT,52.57455390815311,Medium,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+DHAMTARI,CHHATTISGARH,42.78550150182081,Medium,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+JAMTARA,JHARKHAND,38.308559323846765,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+DATIA,MADHYA PRADESH,29.113423461901128,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+NALBARI,ASSAM,42.70423742652012,Medium,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+MANSA,PUNJAB,29.14506348722961,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+BURHANPUR,MADHYA PRADESH,29.687506129891933,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+ARIYALUR,TAMIL NADU,42.31175809805962,Medium,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+BADGAM,JAMMU AND KASHMIR,46.4770047917762,Medium,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+ANUPPUR,MADHYA PRADESH,25.303952219120283,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+KANKER,CHHATTISGARH,28.46077764627759,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+BONGAIGAON,ASSAM,35.27296272710625,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+THE NILGIRIS,TAMIL NADU,40.00695490036341,Medium,Recruit Additional Doctors & Nurses | Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+KANDHAMAL,ORISSA,24.502850134922923,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+ALIRAJPUR,MADHYA PRADESH,31.750189339064903,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+LATEHAR,JHARKHAND,34.711965467339816,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+KODARMA,JHARKHAND,31.441327333077407,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+DINDORI,MADHYA PRADESH,32.18641861063727,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+ARWAL,BIHAR,36.028522542915155,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+NORTH TRIPURA,TRIPURA,30.22894636658333,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+SHEOPUR,MADHYA PRADESH,35.96726155017313,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+PAURI GARHWAL,UTTARAKHAND,30.595945369451503,Low,Recruit Additional Doctors & Nurses | Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+DHEMAJI,ASSAM,27.70100863932682,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+RUPNAGAR,PUNJAB,39.52557760311789,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+JAISALMER,RAJASTHAN,26.428806471243405,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+HAILAKANDI,ASSAM,32.82468219329457,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+KOREA,CHHATTISGARH,30.507528209638853,Low,Recruit Additional Doctors & Nurses | Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+SHEOHAR,BIHAR,35.98514188734397,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+UMARIA,MADHYA PRADESH,28.577027390689103,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+WEST GARO HILLS,MEGHALAYA,42.96056521850336,Medium,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+RAJOURI,JAMMU AND KASHMIR,26.285015681670053,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+SOUTH GOA,GOA,19.856210480505208,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+SHEIKHPURA,BIHAR,36.29132142177547,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+ALMORA,UTTARAKHAND,37.788568734522585,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+TEHRI GARHWAL,UTTARAKHAND,23.631206947888565,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+FARIDKOT,PUNJAB,28.337362642567115,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+KATHUA,JAMMU AND KASHMIR,42.74737768062206,Medium,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+MALKANGIRI,ORISSA,34.1518416267955,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+SHAHID BHAGAT SINGH NAGAR,PUNJAB,40.531868849804674,Medium,Recruit Additional Doctors & Nurses | Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+NUAPADA,ORISSA,30.80015794490112,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+SUBARNAPUR,ORISSA,26.67421512128992,Low,Recruit Additional Doctors & Nurses | Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+FATEHGARH SAHIB,PUNJAB,25.58537690735292,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+SIMDEGA,JHARKHAND,34.89515304472505,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+BARNALA,PUNJAB,26.37197096014237,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+NARMADA,GUJARAT,36.19790202427107,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+PORBANDAR,GUJARAT,37.42799686100418,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+CENTRAL DELHI,DELHI,30.26867340290365,Low,Recruit Additional Doctors & Nurses | Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+SOLAN,HIMACHAL PRADESH,40.50596398279268,Medium,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+JHARSUGUDA,ORISSA,44.836102502073935,Medium,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+GAJAPATI,ORISSA,32.37524306893679,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+HARDA,MADHYA PRADESH,28.951841875428347,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+PERAMBALUR,TAMIL NADU,43.51185356401249,Medium,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+PANCHKULA,HARYANA,39.85696453032544,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+PULWAMA,JAMMU AND KASHMIR,44.11060526094834,Medium,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+UDHAMPUR,JAMMU AND KASHMIR,27.49507220066882,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+KODAGU,KARNATAKA,38.09097619582768,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+DANTEWADA,CHHATTISGARH,37.11983115666938,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+KHUNTI,JHARKHAND,36.54767356789625,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+SIRMAUR,HIMACHAL PRADESH,22.26365511340023,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+UNA,HIMACHAL PRADESH,40.9674213058726,Medium,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+CHAMBA,HIMACHAL PRADESH,44.18330064054128,Medium,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+IMPHAL WEST,MANIPUR,29.68366228731028,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+PITHORAGARH,UTTARAKHAND,16.66944002161344,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+CHIRANG,ASSAM,33.49956364973318,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+SENAPATI,MANIPUR,22.471872357021983,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+PUNCH,JAMMU AND KASHMIR,24.46404157669246,Low,Recruit Additional Doctors & Nurses | Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+LOHARDAGA,JHARKHAND,32.0627576344641,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+IMPHAL EAST,MANIPUR,17.920017129888315,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+HAMIRPUR,HIMACHAL PRADESH,38.2131372232622,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+BAUDH,ORISSA,26.90522579512401,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+KULLU,HIMACHAL PRADESH,25.93520372255724,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+KULGAM,JAMMU AND KASHMIR,26.823819346035684,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+THOUBAL,MANIPUR,17.84980497294955,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+DODA,JAMMU AND KASHMIR,31.10698334907469,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+AIZAWL,MIZORAM,19.10387947475463,Low,Recruit Additional Doctors & Nurses | Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+JAINTIA HILLS,MEGHALAYA,29.684934295607007,Low,Recruit Additional Doctors & Nurses | Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+BANDIPORA,JAMMU AND KASHMIR,28.472534409200332,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+CHAMOLI,UTTARAKHAND,23.22877546320908,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+WEST KHASI HILLS,MEGHALAYA,33.77333576143364,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+BILASPUR,HIMACHAL PRADESH,44.80306962812221,Medium,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+DIMAPUR,NAGALAND,36.49693496467074,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+DHALAI,TRIPURA,33.2497178225962,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+DADRA AND NAGAR HAVELI,DADRA AND NAGAR HAVELI,28.465566346288384,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+UTTARKASHI,UTTARAKHAND,27.4142144498449,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+SAMBA,JAMMU AND KASHMIR,22.745038399163025,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+EAST GARO HILLS,MEGHALAYA,28.87159709235753,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+REASI,JAMMU AND KASHMIR,26.59818923758787,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+DEBAGARH,ORISSA,49.86143068701029,Medium,Recruit Additional Doctors & Nurses | Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+GANDERBAL,JAMMU AND KASHMIR,28.844051091543676,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+RAMBAN,JAMMU AND KASHMIR,27.641548042932,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+EAST SIKKIM,SIKKIM,29.337112527155888,Low,Recruit Additional Doctors & Nurses | Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+CHURACHANDPUR,MANIPUR,21.048333536171302,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+KOHIMA,NAGALAND,34.543104996370005,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+SHUPIYAN,JAMMU AND KASHMIR,44.56876847985265,Medium,Recruit Additional Doctors & Nurses | Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+BAGESHWAR,UTTARAKHAND,34.4177079423885,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+CHAMPAWAT,UTTARAKHAND,18.494266366429503,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+RI BHOI,MEGHALAYA,28.47202466984304,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+BIJAPUR,CHHATTISGARH,39.67650800455728,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+MON,NAGALAND,29.093503618766192,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+RUDRAPRAYAG,UTTARAKHAND,18.738467933778303,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+SOUTH ANDAMAN,ANDAMAN AND NICOBAR ISLANDS,38.46514030691681,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+BISHNUPUR,MANIPUR,18.77170211801281,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+KISHTWAR,JAMMU AND KASHMIR,48.73669472768181,Medium,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+THE DANGS,GUJARAT,34.54909989143993,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+DIMA HASAO,ASSAM,41.222404282778605,Medium,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+KARAIKAL,PUDUCHERRY,39.53523103104349,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+TUENSANG,NAGALAND,31.75850824738832,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+MOKOKCHUNG,NAGALAND,39.528048110158224,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+DAMAN,DAMAN AND DIU,28.476652469194523,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+UKHRUL,MANIPUR,24.68344383116475,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+PAPUMPARE,ARUNACHAL PRADESH,29.003419916887434,Low,Recruit Additional Doctors & Nurses | Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+WOKHA,NAGALAND,35.89444675167288,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+PHEK,NAGALAND,26.725629020988485,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+LUNGLEI,MIZORAM,34.89909594441507,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+CHANGLANG,ARUNACHAL PRADESH,28.496435273337127,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+SOUTH SIKKIM,SIKKIM,28.910733761808384,Low,Recruit Additional Doctors & Nurses | Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+LOHIT,ARUNACHAL PRADESH,39.10052133480848,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+CHANDEL,MANIPUR,23.913796125244225,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+SOUTH GARO HILLS,MEGHALAYA,42.90281285316841,Medium,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+NEW DELHI,DELHI,24.13395132651316,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+KARGIL,JAMMU AND KASHMIR,28.455988487564586,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+ZUNHEBOTO,NAGALAND,43.400028332154925,Medium,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+TAMENGLONG,MANIPUR,22.788210406726623,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+NARAYANPUR,CHHATTISGARH,35.949019834427,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+WEST SIKKIM,SIKKIM,28.878256343474156,Low,Recruit Additional Doctors & Nurses | Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+LEH,JAMMU AND KASHMIR,28.86906350341181,Low,Recruit Additional Doctors & Nurses | Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+CHAMPHAI,MIZORAM,32.80545152633918,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+LAWNGTLAI,MIZORAM,28.5775457649494,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+WEST SIANG,ARUNACHAL PRADESH,34.24494236864904,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+TIRAP,ARUNACHAL PRADESH,25.033837089557657,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+NORTH AND MIDDLE ANDAMAN,ANDAMAN AND NICOBAR ISLANDS,28.459139271723792,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+EAST SIANG,ARUNACHAL PRADESH,32.95983230948386,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+PEREN,NAGALAND,27.02541620101065,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+KURUNG KUMEY,ARUNACHAL PRADESH,37.79419856079076,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+MAMIT,MIZORAM,19.867095314040597,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+KINNAUR,HIMACHAL PRADESH,41.502174324986754,Medium,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+KOLASIB,MIZORAM,19.32858931280879,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+WEST KAMENG,ARUNACHAL PRADESH,35.31637216142814,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+UPPER SUBANSIRI,ARUNACHAL PRADESH,26.48116427782863,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+LOWER SUBANSIRI,ARUNACHAL PRADESH,36.89373446379538,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+EAST KAMENG,ARUNACHAL PRADESH,24.664082632029757,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+KIPHIRE,NAGALAND,31.30887545594943,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+SERCHHIP,MIZORAM,17.705137093443057,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+LAKSHADWEEP,LAKSHADWEEP,34.01107107521441,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+SAIHA,MIZORAM,28.458890167111644,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+YANAM,PUDUCHERRY,36.74887038585464,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+LOWER DIBANG VALLEY,ARUNACHAL PRADESH,18.839382518926136,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+DIU,DAMAN AND DIU,28.470849504496822,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+LONGLENG,NAGALAND,29.456960691382587,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+TAWANG,ARUNACHAL PRADESH,29.269906552695492,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+NORTH SIKKIM,SIKKIM,28.58910597453897,Low,Recruit Additional Doctors & Nurses | Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+MAHE,PUDUCHERRY,40.24670352822802,Medium,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+NICOBARS,ANDAMAN AND NICOBAR ISLANDS,34.50118267429437,Low,Recruit Additional Doctors & Nurses | Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+UPPER SIANG,ARUNACHAL PRADESH,35.57274167670583,Low,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+LAHUL AND SPITI,HIMACHAL PRADESH,28.551233843413748,Low,Recruit Additional Doctors & Nurses | Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+ANJAW,ARUNACHAL PRADESH,40.21342058665799,Medium,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
+DIBANG VALLEY,ARUNACHAL PRADESH,43.37275693592033,Medium,Launch Vaccination Campaign | Women's Health Awareness Programme | Improve Maternal Healthcare Services | Strengthen Institutional Delivery Facilities
