@@ -1,10 +1,12 @@
 import streamlit as st
 import pandas as pd
+import plotly.express as px
+import plotly.graph_objects as go
 from PIL import Image
 
-# ---------------------------------------------------------
+# -------------------------------
 # PAGE CONFIGURATION
-# ---------------------------------------------------------
+# -------------------------------
 
 st.set_page_config(
     page_title="Government Healthcare Resource Intelligence Platform",
@@ -13,18 +15,27 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
-# ---------------------------------------------------------
-# CUSTOM CSS
-# ---------------------------------------------------------
+# -------------------------------
+# LOAD DATA
+# -------------------------------
+
+@st.cache_data
+def load_data():
+    return pd.read_csv(
+        "data/processed/healthcare_priority_index.csv"
+    )
+
+df = load_data()
+# ==========================================================
+# PREMIUM UI
+# ==========================================================
 
 st.markdown("""
 <style>
 
-#MainMenu{
-visibility:hidden;
-}
+/* Hide Streamlit Components */
 
-footer{
+#MainMenu{
 visibility:hidden;
 }
 
@@ -32,36 +43,37 @@ header{
 visibility:hidden;
 }
 
-.block-container{
-padding-top:1rem;
-padding-bottom:1rem;
-padding-left:2rem;
-padding-right:2rem;
+footer{
+visibility:hidden;
 }
 
-.main{
-background-color:#F4F8FC;
+/* App */
+
+.stApp{
+background:#F4F8FC;
 }
+
+/* Hero */
 
 .hero{
 
-background:linear-gradient(135deg,#0B3C5D,#328CC1);
+background:linear-gradient(135deg,#0B3C5D,#1565C0);
 
-padding:35px;
+padding:40px;
 
-border-radius:20px;
+border-radius:22px;
 
 color:white;
 
-text-align:center;
+box-shadow:0px 12px 25px rgba(0,0,0,.20);
 
-box-shadow:0px 8px 20px rgba(0,0,0,.15);
+margin-bottom:25px;
 
 }
 
 .hero h1{
 
-font-size:44px;
+font-size:46px;
 
 font-weight:700;
 
@@ -69,446 +81,440 @@ font-weight:700;
 
 .hero p{
 
-font-size:20px;
+font-size:19px;
 
 opacity:.95;
 
 }
 
-.card{
+/* KPI */
+
+div[data-testid="metric-container"]{
 
 background:white;
 
 padding:20px;
 
-border-radius:15px;
+border-radius:18px;
 
-box-shadow:0 4px 12px rgba(0,0,0,.08);
+border-left:6px solid #1565C0;
 
-border-left:6px solid #0B3C5D;
+box-shadow:0px 6px 18px rgba(0,0,0,.12);
+
+transition:.3s;
 
 }
 
-.section{
+div[data-testid="metric-container"]:hover{
+
+transform:translateY(-6px);
+
+}
+
+/* Cards */
+
+.card{
 
 background:white;
 
 padding:25px;
 
-border-radius:15px;
+border-radius:20px;
 
-box-shadow:0 2px 10px rgba(0,0,0,.08);
+box-shadow:0px 6px 16px rgba(0,0,0,.10);
 
 margin-bottom:20px;
 
 }
 
-.footer{
+/* Sidebar */
 
-text-align:center;
+section[data-testid="stSidebar"]{
 
-font-size:15px;
+background:#082B4A;
 
-color:gray;
+}
 
-padding-top:30px;
+section[data-testid="stSidebar"] *{
+
+color:white;
+
+}
+
+/* Buttons */
+
+.stButton>button{
+
+background:#1565C0;
+
+color:white;
+
+border:none;
+
+border-radius:10px;
+
+height:45px;
+
+width:100%;
+
+font-weight:bold;
+
+}
+
+.stButton>button:hover{
+
+background:#0D47A1;
+
+}
+
+/* Download */
+
+.stDownloadButton>button{
+
+background:#2E7D32;
+
+color:white;
+
+border-radius:10px;
+
+width:100%;
+
+height:45px;
+
+font-weight:bold;
 
 }
 
 </style>
-""", unsafe_allow_html=True)
 
-# ---------------------------------------------------------
-# SIDEBAR
-# ---------------------------------------------------------
+""",unsafe_allow_html=True)
 
-st.sidebar.image(
-    "https://img.icons8.com/color/96/hospital-3.png",
-    width=80
-)
-
-st.sidebar.title("Healthcare Platform")
-
-st.sidebar.success(
-    "Government Decision Support System"
-)
-
-st.sidebar.markdown("---")
-
-st.sidebar.markdown("""
-### Platform Modules
-
-🏠 Home
-
-📊 Executive Dashboard
-
-🏥 Healthcare Analysis
-
-🗺 India Healthcare Map
-
-📈 Healthcare Priority Index
-
-🏛 Government Action Center
-
-🤖 ML Prediction
-
-📄 District Report
-
-""")
-
-st.sidebar.markdown("---")
-
-st.sidebar.info(
-"""
-Built using
-
-Python
-
-Streamlit
-
-Plotly
-
-MySQL
-
-XGBoost
-"""
-)
-
-# ---------------------------------------------------------
-# HERO
-# ---------------------------------------------------------
+# ==========================================================
+# HERO SECTION
+# ==========================================================
 
 st.markdown("""
 
 <div class="hero">
 
-<h1>
-
-🏥 Government Healthcare Resource Intelligence Platform
-
-</h1>
+<h1>🏥 Government Healthcare Resource Intelligence Platform</h1>
 
 <p>
-
-AI Powered Decision Support System for Public Healthcare Planning
-
+AI-Powered Decision Support System for Public Healthcare Planning Across India
 </p>
 
 </div>
 
 """, unsafe_allow_html=True)
 
-st.write("")
+st.markdown("### 🇮🇳 About the Platform")
 
-# ---------------------------------------------------------
-# INTRODUCTION
-# ---------------------------------------------------------
-
-st.markdown('<div class="section">', unsafe_allow_html=True)
-
-st.header("📌 About This Platform")
-
-st.write("""
-
-The Government Healthcare Resource Intelligence Platform is an AI-powered analytics solution designed to support data-driven healthcare planning across India.
-
-The platform integrates healthcare infrastructure, demographic statistics, and public health indicators to identify districts that require immediate attention and generate actionable recommendations for policymakers.
-
+st.info("""
+This platform helps government agencies identify healthcare gaps,
+prioritize districts, analyze public health indicators, and generate
+AI-driven recommendations for better healthcare resource allocation.
 """)
 
-st.markdown("</div>", unsafe_allow_html=True)
+st.divider()
 
+# ==========================================================
+# PLATFORM STATISTICS
+# ==========================================================
 
-# ---------------------------------------------------------
-# PLATFORM FEATURES
-# ---------------------------------------------------------
+st.subheader("📊 Platform Overview")
 
-st.markdown('<div class="section">', unsafe_allow_html=True)
-
-st.header("🚀 Platform Features")
-
-col1, col2, col3 = st.columns(3)
+col1, col2, col3, col4 = st.columns(4)
 
 with col1:
-
-    st.markdown("""
-### 📊 Analytics
-
-- Executive Dashboard
-- State Analysis
-- District Analysis
-- Healthcare Infrastructure
-- Population Insights
-- Health Indicators
-""")
+    st.metric(
+        "States",
+        df["state"].nunique()
+    )
 
 with col2:
-
-    st.markdown("""
-### 🏥 Healthcare Intelligence
-
-- Vaccination Analysis
-- Anaemia Analysis
-- Child Nutrition
-- Maternal Health
-- Female Literacy
-- Priority Index
-""")
+    st.metric(
+        "Districts",
+        df["district"].nunique()
+    )
 
 with col3:
+    st.metric(
+        "Health Centres",
+        f"{int(df['health_centres'].sum()):,}"
+    )
 
-    st.markdown("""
-### 🤖 AI Decision Support
+with col4:
+    st.metric(
+        "Population",
+        f"{int(df['population'].sum()):,}"
+    )
 
-- Government Recommendation
-- XGBoost Prediction
-- District Ranking
-- Priority Score
-- Download Reports
-- Decision Support
+st.divider()
+
+# ==========================================================
+# PLATFORM MODULES
+# ==========================================================
+
+st.subheader("🚀 Platform Modules")
+
+c1,c2,c3 = st.columns(3)
+
+with c1:
+
+    st.success("""
+
+### 📊 Analytics
+
+✔ Executive Dashboard
+
+✔ State Comparison
+
+✔ District Ranking
+
+✔ Healthcare Infrastructure
+
 """)
 
-st.markdown("</div>", unsafe_allow_html=True)
+with c2:
 
-# ---------------------------------------------------------
-# PROJECT WORKFLOW
-# ---------------------------------------------------------
+    st.info("""
 
-st.markdown('<div class="section">', unsafe_allow_html=True)
+### 🤖 AI Intelligence
 
-st.header("🔄 End-to-End Analytics Workflow")
+✔ Priority Index
+
+✔ XGBoost Prediction
+
+✔ Recommendation Engine
+
+✔ Risk Classification
+
+""")
+
+with c3:
+
+    st.warning("""
+
+### 🏛 Government
+
+✔ Policy Support
+
+✔ Healthcare Planning
+
+✔ Resource Allocation
+
+✔ Download Reports
+
+""")
+
+st.divider()
+
+# ==========================================================
+# WHY THIS PROJECT
+# ==========================================================
+
+st.subheader("🎯 Why This Project Matters")
+
+st.markdown("""
+
+- Identify healthcare resource gaps across districts
+
+- Prioritize government investments
+
+- Improve vaccination coverage analysis
+
+- Detect high-risk healthcare regions
+
+- Support evidence-based policy decisions
+
+- Provide AI-powered recommendations
+
+""")
+
+st.divider()
+
+# ==========================================================
+# SYSTEM ARCHITECTURE
+# ==========================================================
+
+st.subheader("🏗️ System Architecture")
 
 st.code("""
 
-Raw Government Datasets
-          │
-          ▼
-Data Cleaning & Integration
-          │
-          ▼
-SQL Business Analytics
-          │
-          ▼
-Exploratory Data Analysis
-          │
-          ▼
-Healthcare Priority Index
-          │
-          ▼
-Government Recommendation Engine
-          │
-          ▼
-Machine Learning (XGBoost)
-          │
-          ▼
-Interactive Streamlit Dashboard
+Government Datasets
+        │
+        ▼
+Data Cleaning & Feature Engineering
+        │
+        ▼
+Healthcare Master Dataset
+        │
+        ├────────► SQL Analytics
+        │
+        ├────────► EDA
+        │
+        ├────────► Healthcare Priority Index
+        │
+        ├────────► AI Recommendation Engine
+        │
+        └────────► XGBoost Prediction
+                     │
+                     ▼
+          Streamlit Decision Support Platform
 
 """)
 
-st.markdown("</div>", unsafe_allow_html=True)
+st.divider()
 
-# ---------------------------------------------------------
-# TECH STACK
-# ---------------------------------------------------------
+# ==========================================================
+# END TO END WORKFLOW
+# ==========================================================
 
-st.markdown('<div class="section">', unsafe_allow_html=True)
+st.subheader("📈 Analytics Workflow")
 
-st.header("🛠 Technology Stack")
+workflow = px.funnel(
+    y=[
+        "Government Data",
+        "Data Cleaning",
+        "Feature Engineering",
+        "SQL Analysis",
+        "EDA",
+        "Priority Index",
+        "Machine Learning",
+        "Decision Support Dashboard"
+    ],
+    x=[100,92,85,78,70,60,48,35]
+)
 
-c1,c2,c3,c4,c5,c6 = st.columns(6)
+workflow.update_layout(height=500)
+
+st.plotly_chart(
+    workflow,
+    use_container_width=True
+)
+
+st.divider()
+
+# ==========================================================
+# TECHNOLOGY STACK
+# ==========================================================
+
+st.subheader("🛠 Technology Stack")
+
+c1,c2,c3,c4 = st.columns(4)
 
 with c1:
-    st.metric("Language","Python")
+    st.info("""
+### Backend
+
+• Python
+
+• Pandas
+
+• NumPy
+
+• Joblib
+""")
 
 with c2:
-    st.metric("Database","MySQL")
+    st.info("""
+### Database
+
+• MySQL
+
+• SQL Analytics
+
+• Views
+
+• Window Functions
+""")
 
 with c3:
-    st.metric("EDA","Pandas")
+    st.info("""
+### Visualization
+
+• Streamlit
+
+• Plotly
+
+• Interactive Dashboard
+""")
 
 with c4:
-    st.metric("Visualization","Plotly")
+    st.info("""
+### AI / ML
 
-with c5:
-    st.metric("Machine Learning","XGBoost")
+• XGBoost
 
-with c6:
-    st.metric("Framework","Streamlit")
+• Scikit-learn
 
-st.markdown("</div>", unsafe_allow_html=True)
+• Prediction Engine
+""")
 
-# ---------------------------------------------------------
-# WHY THIS PROJECT
-# ---------------------------------------------------------
+st.divider()
 
-st.markdown('<div class="section">', unsafe_allow_html=True)
+# ==========================================================
+# PROJECT HIGHLIGHTS
+# ==========================================================
 
-st.header("🎯 Why This Platform?")
+st.subheader("⭐ Project Highlights")
 
 left,right = st.columns(2)
 
 with left:
 
     st.success("""
+✔ Government Decision Support
 
-✔ Identify healthcare resource gaps
+✔ Healthcare Resource Planning
 
-✔ Compare district performance
+✔ AI Recommendation Engine
 
-✔ Detect high-risk districts
+✔ District Intelligence
 
-✔ Improve healthcare planning
+✔ Interactive Dashboards
 
-✔ Monitor public health indicators
+✔ Healthcare Priority Ranking
 
-✔ Assist government decision making
-
+✔ Policy Recommendation
 """)
 
 with right:
 
-    st.info("""
-
-✔ AI-powered recommendations
-
-✔ Interactive dashboards
-
-✔ Healthcare Priority Index
-
-✔ Machine Learning predictions
-
-✔ Downloadable reports
-
-✔ Executive insights
-
-""")
-
-st.markdown("</div>", unsafe_allow_html=True)
-
-# ---------------------------------------------------------
-# PAGE GUIDE
-# ---------------------------------------------------------
-
-st.markdown('<div class="section">', unsafe_allow_html=True)
-
-st.header("📂 Explore the Platform")
-
-page1,page2,page3 = st.columns(3)
-
-with page1:
-
-    st.info("""
-
-🏠 Home
-
-📊 Executive Dashboard
-
-🏥 Healthcare Analysis
-
-""")
-
-with page2:
-
-    st.warning("""
-
-🗺 India Healthcare Map
-
-📈 Priority Index
-
-🏛 Action Center
-
-""")
-
-with page3:
-
     st.success("""
+✔ Machine Learning
 
-🤖 ML Prediction
+✔ SQL Analytics
 
-📄 District Report
+✔ Feature Engineering
 
-⬇ Download Reports
+✔ Streamlit Deployment
 
+✔ Download Reports
+
+✔ Executive Insights
+
+✔ Production Ready
 """)
 
-st.markdown("</div>", unsafe_allow_html=True)
+st.divider()
 
-# ---------------------------------------------------------
-# PROJECT STATISTICS
-# ---------------------------------------------------------
-
-st.markdown('<div class="section">', unsafe_allow_html=True)
-
-st.header("📈 Project Statistics")
-
-col1,col2,col3,col4 = st.columns(4)
-
-with col1:
-    st.metric("Datasets","3")
-
-with col2:
-    st.metric("States","36+")
-
-with col3:
-    st.metric("Districts","700+")
-
-with col4:
-    st.metric("ML Model","XGBoost")
-
-st.markdown("</div>", unsafe_allow_html=True)
-
-# ---------------------------------------------------------
-# INTERVIEW HIGHLIGHTS
-# ---------------------------------------------------------
-
-st.markdown('<div class="section">', unsafe_allow_html=True)
-
-st.header("⭐ Highlights")
-
-st.write("""
-
-This project demonstrates:
-
-• End-to-End Data Analytics
-
-• SQL Business Analysis
-
-• Exploratory Data Analysis
-
-• Healthcare Decision Intelligence
-
-• Feature Engineering
-
-• Machine Learning (XGBoost)
-
-• Policy Recommendation Engine
-
-• Interactive Streamlit Dashboard
-
-• Downloadable Reports
-
-• Government Decision Support
-
-""")
-
-st.markdown("</div>", unsafe_allow_html=True)
-
-# ---------------------------------------------------------
+# ==========================================================
 # FOOTER
-# ---------------------------------------------------------
-
-st.markdown("---")
+# ==========================================================
 
 st.markdown("""
 
-<div class="footer">
+---
 
-<h3>Government Healthcare Resource Intelligence Platform</h3>
+### 👨‍💻 Developed By
 
-Developed by <b>Prasanna Deshmane</b>
+**Prasanna Deshmane**
+
+Government Healthcare Resource Intelligence Platform
 
 Python • MySQL • Streamlit • Plotly • XGBoost
 
-</div>
+Designed for Data Analyst Portfolio & Interviews
 
-""",unsafe_allow_html=True)
+""")
