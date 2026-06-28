@@ -9,10 +9,34 @@ def load_css():
    GLOBAL
 ========================= */
 
-html, body, .stApp{
-    background-color:#0B1120;
-    color:#F8FAFC;
-    font-family:'Segoe UI',sans-serif;
+html,
+body,
+[data-testid="stAppViewContainer"],
+.main {
+
+    background: #0B1120 !important;
+    color: #F8FAFC !important;
+
+}
+
+[data-testid="stHeader"]{
+
+    background:#0B1120 !important;
+
+}
+
+[data-testid="stToolbar"]{
+
+    background:#0B1120 !important;
+
+}
+
+.block-container{
+
+    background:#0B1120 !important;
+
+    padding-top:2rem;
+
 }
 
 /* =========================
