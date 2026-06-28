@@ -20,14 +20,34 @@ st.set_page_config(
 
 @st.cache_data
 def load_data():
-    return pd.read_csv(
+
+    df = pd.read_csv(
         "data/processed/healthcare_priority_index.csv"
     )
+
+    percentage_columns = [
+        "female_literacy",
+        "antenatal_care",
+        "institutional_birth",
+        "vaccination",
+        "stunted",
+        "underweight",
+        "anaemia"
+    ]
+
+    for col in percentage_columns:
+
+        if df[col].max() <= 1:
+
+            df[col] = df[col] * 100
+
+    return df
+
 
 df = load_data()
 
 # ==========================================================
-# PAGE HEADER
+# PAGE TITLE
 # ==========================================================
 
 st.title("📊 Executive Healthcare Intelligence Dashboard")
@@ -35,100 +55,85 @@ st.title("📊 Executive Healthcare Intelligence Dashboard")
 st.markdown("""
 ### Real-Time Healthcare Decision Support System
 
-A comprehensive executive dashboard for analysing India's healthcare
-infrastructure, healthcare accessibility, maternal & child health,
-and district healthcare priority.
+National Healthcare Intelligence Dashboard for monitoring
+healthcare infrastructure, vaccination, maternal & child
+health and district healthcare priority across India.
 """)
 
 st.divider()
 
 # ==========================================================
-# EXECUTIVE KPIs
+# EXECUTIVE KPI CARDS
 # ==========================================================
 
-total_population = int(df["population"].sum())
+population = int(df["population"].sum())
 
-total_health_centres = int(df["health_centres"].sum())
+health_centres = int(df["health_centres"].sum())
 
-avg_vaccination = df["vaccination"].mean()
+vaccination = df["vaccination"].mean()
 
-avg_anaemia = df["anaemia"].mean()
+anaemia = df["anaemia"].mean()
 
-avg_female_literacy = df["female_literacy"].mean()
+female_literacy = df["female_literacy"].mean()
 
-avg_priority_score = df["healthcare_priority_score"].mean()
+priority_score = df["healthcare_priority_score"].mean()
 
 critical_districts = (
     df["priority_level"] == "Critical"
 ).sum()
 
-total_states = df["state"].nunique()
+states = df["state"].nunique()
 
-# Automatically convert to percentage if data is stored as 0–1
+k1, k2, k3, k4 = st.columns(4)
 
-if avg_vaccination <= 1:
-    avg_vaccination *= 100
-
-if avg_anaemia <= 1:
-    avg_anaemia *= 100
-
-if avg_female_literacy <= 1:
-    avg_female_literacy *= 100
-
-# ==========================================================
-# KPI CARDS
-# ==========================================================
-
-c1, c2, c3, c4 = st.columns(4)
-
-with c1:
+with k1:
     st.metric(
         "Population",
-        f"{total_population:,}"
+        f"{population:,}"
     )
 
-with c2:
+with k2:
     st.metric(
         "Health Centres",
-        f"{total_health_centres:,}"
+        f"{int(health_centres):,}"
     )
 
-with c3:
+with k3:
     st.metric(
-        "Average Vaccination",
-        f"{avg_vaccination:.1f}%"
+        "Vaccination",
+        f"{vaccination:.1f}%"
     )
 
-with c4:
+with k4:
     st.metric(
-        "Average Anaemia",
-        f"{avg_anaemia:.1f}%"
+        "Anaemia",
+        f"{anaemia:.1f}%"
     )
 
-c5, c6, c7, c8 = st.columns(4)
+k5, k6, k7, k8 = st.columns(4)
 
-with c5:
+with k5:
     st.metric(
         "Female Literacy",
-        f"{avg_female_literacy:.1f}%"
+        f"{female_literacy:.1f}%"
     )
 
-with c6:
+with k6:
     st.metric(
         "Priority Score",
-        f"{avg_priority_score:.2f}"
+        f"{priority_score:.2f}"
     )
 
-with c7:
+with k7:
     st.metric(
         "Critical Districts",
         critical_districts
     )
 
-with c8:
+with k8:
     st.metric(
         "States",
-        total_states
+        states
     )
 
 st.divider()
@@ -137,7 +142,7 @@ st.divider()
 # STATE PERFORMANCE & HIGH PRIORITY DISTRICTS
 # ==========================================================
 
-left, right = st.columns([1.3, 1])
+left, right = st.columns([1.35, 1])
 
 # ==========================================================
 # STATE HEALTHCARE PERFORMANCE
@@ -148,36 +153,46 @@ with left:
     st.subheader("🏆 State Healthcare Performance")
 
     state_summary = (
-        df.groupby("state", as_index=False)
-        .agg(
-            Priority_Score=("healthcare_priority_score", "mean"),
-            Vaccination=("vaccination", "mean"),
-            Health_Centres=("health_centres", "sum"),
-            Population=("population", "sum")
-        )
-        .sort_values(
-            "Priority_Score",
-            ascending=False
-        )
-    )
 
-    # Convert percentage columns if stored between 0–1
-    if state_summary["Vaccination"].max() <= 1:
-        state_summary["Vaccination"] *= 100
+        df.groupby("state", as_index=False)
+
+        .agg(
+
+            Average_Priority=("healthcare_priority_score", "mean"),
+
+            Population=("population", "sum"),
+
+            Health_Centres=("health_centres", "sum"),
+
+            Vaccination=("vaccination", "mean")
+
+        )
+
+        .sort_values(
+
+            "Average_Priority",
+
+            ascending=False
+
+        )
+
+    )
 
     fig = px.bar(
 
         state_summary.head(10),
 
-        x="Priority_Score",
+        x="Average_Priority",
 
         y="state",
 
         orientation="h",
 
-        color="Priority_Score",
+        color="Average_Priority",
 
         text_auto=".2f",
+
+        color_continuous_scale="Reds",
 
         title="Top 10 States by Healthcare Priority Score"
 
@@ -185,11 +200,11 @@ with left:
 
     fig.update_layout(
 
-        height=520,
+        height=550,
 
         yaxis_title="",
 
-        xaxis_title="Healthcare Priority Score",
+        xaxis_title="Average Priority Score",
 
         coloraxis_showscale=False
 
@@ -204,12 +219,12 @@ with left:
     )
 
 # ==========================================================
-# HIGHEST PRIORITY DISTRICTS
+# TOP PRIORITY DISTRICTS
 # ==========================================================
 
 with right:
 
-    st.subheader("🚨 Highest Priority Districts")
+    st.subheader("🚨 Highest Risk Districts")
 
     top10 = (
 
@@ -227,28 +242,18 @@ with right:
 
     for _, row in top10.iterrows():
 
-        vaccination = row["vaccination"]
-
-        anaemia = row["anaemia"]
-
-        if vaccination <= 1:
-            vaccination *= 100
-
-        if anaemia <= 1:
-            anaemia *= 100
-
         st.error(f"""
-### 📍 {row['district']}
+### 🚨 {row['district']}
 
 **State:** {row['state']}
 
 **Priority Score:** {row['healthcare_priority_score']:.2f}
 
-**Vaccination:** {vaccination:.1f}%
+**Vaccination:** {row['vaccination']:.1f}%
 
-**Anaemia:** {anaemia:.1f}%
+**Anaemia:** {row['anaemia']:.1f}%
 
-**Health Centres:** {int(row['health_centres'])}
+**Healthcare Density:** {row['healthcare_density']}
 
 **Priority Level:** {row['priority_level']}
 """)
@@ -262,48 +267,43 @@ st.divider()
 st.subheader("🏥 Healthcare Infrastructure Gap Analysis")
 
 gap_df = (
-    df.nlargest(
-        20,
-        "population_per_health_centre"
+    df.sort_values(
+        "population_per_health_centre",
+        ascending=False
     )
-    .sort_values(
-        "population_per_health_centre"
-    )
+    .head(20)
 )
 
 fig = px.bar(
 
     gap_df,
 
-    x="population_per_health_centre",
+    x="district",
 
-    y="district",
+    y="population_per_health_centre",
 
-    orientation="h",
-
-    color="population_per_health_centre",
+    color="healthcare_density",
 
     hover_data=[
         "state",
         "population",
-        "health_centres"
+        "health_centres",
+        "priority_level"
     ],
 
-    text_auto=".0f",
-
-    title="Top 20 Districts with Highest Population per Health Centre"
+    title="Top 20 Districts with Highest Infrastructure Gap"
 
 )
 
 fig.update_layout(
 
-    height=650,
+    height=600,
 
-    xaxis_title="Population per Health Centre",
+    xaxis_title="District",
 
-    yaxis_title="District",
+    yaxis_title="Normalized Infrastructure Gap",
 
-    coloraxis_showscale=False
+    xaxis_tickangle=-45
 
 )
 
@@ -315,44 +315,32 @@ st.plotly_chart(
 st.divider()
 
 # ==========================================================
-# VACCINATION vs ANAEMIA INTELLIGENCE
+# VACCINATION vs ANAEMIA ANALYSIS
 # ==========================================================
 
 st.subheader("💉 Vaccination vs Anaemia Intelligence")
 
-scatter_df = df.copy()
-
-if scatter_df["vaccination"].max() <= 1:
-    scatter_df["vaccination"] *= 100
-
-if scatter_df["anaemia"].max() <= 1:
-    scatter_df["anaemia"] *= 100
-
 fig = px.scatter(
 
-    scatter_df,
+    df,
 
     x="vaccination",
 
     y="anaemia",
 
-    size="population",
+    color="priority_level",
 
-    color="healthcare_priority_score",
+    size="population",
 
     hover_name="district",
 
     hover_data=[
-
         "state",
-
-        "health_centres",
-
-        "population_per_health_centre"
-
+        "healthcare_density",
+        "healthcare_priority_score"
     ],
 
-    title="Vaccination Coverage vs Anaemia Burden"
+    title="Vaccination Coverage vs Anaemia"
 
 )
 
@@ -362,9 +350,7 @@ fig.update_layout(
 
     xaxis_title="Vaccination (%)",
 
-    yaxis_title="Anaemia (%)",
-
-    coloraxis_colorbar_title="Priority Score"
+    yaxis_title="Anaemia (%)"
 
 )
 
@@ -379,10 +365,10 @@ st.plotly_chart(
 st.divider()
 
 # ==========================================================
-# STATE HEALTHCARE HEATMAP
+# STATE HEALTHCARE OVERVIEW
 # ==========================================================
 
-st.subheader("🗺️ State Healthcare Priority Heatmap")
+st.subheader("🗺️ State Healthcare Overview")
 
 state_df = (
 
@@ -402,17 +388,13 @@ state_df = (
 
 )
 
-# Convert percentage columns if required
-
-for col in ["vaccination","anaemia","female_literacy"]:
-
-    if state_df[col].max() <= 1:
-
-        state_df[col] = state_df[col] * 100
-
-heatmap = px.imshow(
+fig = px.imshow(
 
     state_df.set_index("state"),
+
+    aspect="auto",
+
+    color_continuous_scale="RdYlGn_r",
 
     labels=dict(
 
@@ -424,15 +406,11 @@ heatmap = px.imshow(
 
     ),
 
-    aspect="auto",
-
-    color_continuous_scale="RdYlGn_r",
-
     title="State-wise Healthcare Indicators"
 
 )
 
-heatmap.update_layout(
+fig.update_layout(
 
     height=700
 
@@ -440,7 +418,69 @@ heatmap.update_layout(
 
 st.plotly_chart(
 
-    heatmap,
+    fig,
+
+    use_container_width=True
+
+)
+
+st.divider()
+
+# ==========================================================
+# HEALTHCARE DENSITY DISTRIBUTION
+# ==========================================================
+
+st.subheader("🏥 Healthcare Density Distribution")
+
+density_df = (
+
+    df["healthcare_density"]
+
+    .value_counts()
+
+    .reset_index()
+
+)
+
+density_df.columns = [
+
+    "Healthcare Density",
+
+    "Districts"
+
+]
+
+fig = px.pie(
+
+    density_df,
+
+    names="Healthcare Density",
+
+    values="Districts",
+
+    hole=0.45,
+
+    title="District Distribution by Healthcare Density"
+
+)
+
+fig.update_traces(
+
+    textposition="inside",
+
+    textinfo="percent+label"
+
+)
+
+fig.update_layout(
+
+    height=500
+
+)
+
+st.plotly_chart(
+
+    fig,
 
     use_container_width=True
 
@@ -452,9 +492,9 @@ st.divider()
 # PRIORITY LEVEL DISTRIBUTION
 # ==========================================================
 
-st.subheader("📊 District Priority Distribution")
+st.subheader("📊 Priority Level Distribution")
 
-priority_count = (
+priority_df = (
 
     df["priority_level"]
 
@@ -464,7 +504,7 @@ priority_count = (
 
 )
 
-priority_count.columns = [
+priority_df.columns = [
 
     "Priority Level",
 
@@ -472,37 +512,37 @@ priority_count.columns = [
 
 ]
 
-pie = px.pie(
+fig = px.bar(
 
-    priority_count,
+    priority_df,
 
-    names="Priority Level",
+    x="Priority Level",
 
-    values="Districts",
+    y="Districts",
 
-    hole=0.45,
+    color="Priority Level",
 
-    title="Distribution of Healthcare Priority Levels"
+    text_auto=True,
 
-)
-
-pie.update_traces(
-
-    textposition="inside",
-
-    textinfo="percent+label"
+    title="Healthcare Priority Levels Across Districts"
 
 )
 
-pie.update_layout(
+fig.update_layout(
 
-    height=500
+    height=500,
+
+    xaxis_title="Priority Level",
+
+    yaxis_title="Number of Districts",
+
+    showlegend=False
 
 )
 
 st.plotly_chart(
 
-    pie,
+    fig,
 
     use_container_width=True
 
@@ -533,31 +573,34 @@ highest_anaemia = df.loc[
 ]
 
 best_healthcare = df.loc[
-    df["healthcare_density"].idxmax()
+    df["healthcare_rank"].idxmin()
 ]
 
 worst_healthcare = df.loc[
-    df["healthcare_density"].idxmin()
+    df["healthcare_rank"].idxmax()
 ]
 
-c1, c2 = st.columns(2)
+left, right = st.columns(2)
 
-with c1:
+with left:
 
     st.success(f"""
-### 🟢 Key Positive Insights
+### 🟢 Positive Highlights
 
-🏥 Best Healthcare Density
+🏥 **Best Healthcare District**
 
 **{best_healthcare['district']}**
 ({best_healthcare['state']})
 
 Healthcare Density:
-**{best_healthcare['healthcare_density']:.2f}**
+**{best_healthcare['healthcare_density']}**
+
+Healthcare Rank:
+**{int(best_healthcare['healthcare_rank'])}**
 
 ---
 
-💉 Highest Vaccination
+💉 **Highest Vaccination**
 
 **{highest_vaccination['district']}**
 ({highest_vaccination['state']})
@@ -566,12 +609,12 @@ Vaccination:
 **{highest_vaccination['vaccination']:.1f}%**
 """)
 
-with c2:
+with right:
 
     st.error(f"""
-### 🔴 Immediate Attention Required
+### 🔴 Districts Requiring Immediate Attention
 
-🚨 Highest Priority District
+🚨 **Highest Priority District**
 
 **{highest_priority['district']}**
 ({highest_priority['state']})
@@ -581,7 +624,7 @@ Priority Score:
 
 ---
 
-🩸 Highest Anaemia
+🩸 **Highest Anaemia**
 
 **{highest_anaemia['district']}**
 ({highest_anaemia['state']})
@@ -591,36 +634,34 @@ Anaemia:
 
 ---
 
-🏥 Lowest Healthcare Density
+🏥 **Lowest Healthcare Rank**
 
 **{worst_healthcare['district']}**
 ({worst_healthcare['state']})
 
 Healthcare Density:
-**{worst_healthcare['healthcare_density']:.2f}**
+**{worst_healthcare['healthcare_density']}**
+
+Healthcare Rank:
+**{int(worst_healthcare['healthcare_rank'])}**
+""")
 
 st.divider()
 
 # ==========================================================
-# DATA DOWNLOAD
+# DOWNLOAD DATASET
 # ==========================================================
 
-st.subheader("📥 Download Dashboard Data")
+st.subheader("📥 Download Dashboard Dataset")
 
 csv = df.to_csv(index=False).encode("utf-8")
 
 st.download_button(
-
     label="⬇ Download Healthcare Intelligence Dataset",
-
     data=csv,
-
     file_name="Healthcare_Intelligence_Dataset.csv",
-
     mime="text/csv",
-
     use_container_width=True
-
 )
 
 st.divider()
@@ -629,24 +670,10 @@ st.divider()
 # FOOTER
 # ==========================================================
 
-st.markdown("---")
-
 st.caption("""
-
 Government Healthcare Resource Intelligence Platform
 
-Executive Healthcare Intelligence Dashboard
+Executive Healthcare Dashboard
 
-Developed using
-
-• Python
-
-• Streamlit
-
-• Plotly
-
-• XGBoost
-
-© 2026
-
+Built with Streamlit • Plotly • Python • XGBoost
 """)
