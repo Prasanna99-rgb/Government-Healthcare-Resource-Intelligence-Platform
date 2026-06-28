@@ -173,8 +173,6 @@ Government-Healthcare-Resource-Intelligence-Platform/
 │
 ├── utils/
 │   └── styles.py
-│
-└── assets/
 ```
 
 ---
