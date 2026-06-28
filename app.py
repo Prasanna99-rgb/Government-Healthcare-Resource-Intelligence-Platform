@@ -3,6 +3,8 @@ import pandas as pd
 import plotly.express as px
 import plotly.graph_objects as go
 from PIL import Image
+from utils.styles import load_css
+
 
 # -------------------------------
 # PAGE CONFIGURATION
@@ -15,6 +17,7 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
+load_css()
 # -------------------------------
 # LOAD DATA
 # -------------------------------
