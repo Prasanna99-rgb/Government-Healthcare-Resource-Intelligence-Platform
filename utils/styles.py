@@ -3,82 +3,102 @@ import streamlit as st
 def load_css():
 
     st.markdown("""
-
 <style>
 
-/* ==========================================================
-GENERAL
-========================================================== */
+/* =========================
+   GLOBAL
+========================= */
 
-html, body, [class*="css"]{
-
-    background:#F8FAFC;
-    color:#0F172A;
+html, body, .stApp{
+    background-color:#0B1120;
+    color:#F8FAFC;
     font-family:'Segoe UI',sans-serif;
-
 }
 
-/* ==========================================================
-HEADINGS
-========================================================== */
-
-h1{
-    color:#0F172A !important;
-    font-weight:700;
-}
-
-h2{
-    color:#1E293B !important;
-    font-weight:700;
-}
-
-h3{
-    color:#334155 !important;
-    font-weight:600;
-}
-
-p{
-    color:#475569 !important;
-    font-size:17px;
-}
-
-/* ==========================================================
-SIDEBAR
-========================================================== */
+/* =========================
+   SIDEBAR
+========================= */
 
 section[data-testid="stSidebar"]{
-
-    background:#0F172A;
-
+    background:#111827;
 }
 
 section[data-testid="stSidebar"] *{
-
-    color:white !important;
-
+    color:#F8FAFC !important;
 }
 
-/* ==========================================================
-METRIC CARDS
-========================================================== */
+/* =========================
+   HEADINGS
+========================= */
+
+h1{
+    color:#FFFFFF !important;
+    font-weight:800 !important;
+}
+
+h2{
+    color:#F8FAFC !important;
+    font-weight:700 !important;
+}
+
+h3{
+    color:#E2E8F0 !important;
+    font-weight:600 !important;
+}
+
+h4,h5,h6{
+    color:#CBD5E1 !important;
+}
+
+/* =========================
+   TEXT
+========================= */
+
+p{
+    color:#CBD5E1 !important;
+}
+
+label{
+    color:#E2E8F0 !important;
+}
+
+span{
+    color:#E2E8F0;
+}
+
+/* =========================
+   METRIC CARDS
+========================= */
 
 div[data-testid="metric-container"]{
 
-    background:white;
+    background:#1E293B;
 
-    border-radius:15px;
+    border:1px solid #334155;
 
-    padding:15px;
+    border-radius:16px;
 
-    border:1px solid #E2E8F0;
+    padding:18px;
 
-    box-shadow:0 4px 15px rgba(0,0,0,.08);
+    box-shadow:0 6px 18px rgba(0,0,0,.35);
 
 }
 
-/* ==========================================================
-BUTTON
-========================================================== */
+div[data-testid="metric-container"] label{
+
+    color:#94A3B8 !important;
+
+}
+
+div[data-testid="metric-container"] div{
+
+    color:#FFFFFF !important;
+
+}
+
+/* =========================
+   BUTTONS
+========================= */
 
 .stButton>button{
 
@@ -90,9 +110,7 @@ BUTTON
 
     border-radius:10px;
 
-    padding:12px;
-
-    font-weight:bold;
+    font-weight:700;
 
 }
 
@@ -102,35 +120,53 @@ BUTTON
 
 }
 
-/* ==========================================================
-DATAFRAME
-========================================================== */
+/* =========================
+   DATAFRAME
+========================= */
 
 div[data-testid="stDataFrame"]{
 
-    border-radius:12px;
-
-    border:1px solid #CBD5E1;
-
-}
-
-/* ==========================================================
-SUCCESS
-========================================================== */
-
-div[data-testid="stAlert"]{
+    border:1px solid #334155;
 
     border-radius:12px;
 
 }
 
-/* ==========================================================
-BLUE CARD
-========================================================== */
+/* =========================
+   DOWNLOAD BUTTON
+========================= */
+
+.stDownloadButton>button{
+
+    background:#059669;
+
+    color:white;
+
+    border:none;
+
+    border-radius:10px;
+
+    font-weight:bold;
+
+}
+
+/* =========================
+   SUCCESS / INFO / WARNING
+========================= */
+
+div[data-baseweb="notification"]{
+
+    border-radius:12px;
+
+}
+
+/* =========================
+   CUSTOM CARDS
+========================= */
 
 .blue-card{
 
-    background:#2563EB;
+    background:#1D4ED8;
 
     color:white;
 
@@ -138,68 +174,75 @@ BLUE CARD
 
     border-radius:18px;
 
-    box-shadow:0 10px 25px rgba(0,0,0,.15);
+    box-shadow:0 10px 25px rgba(0,0,0,.30);
 
 }
-
-/* ==========================================================
-GREEN CARD
-========================================================== */
 
 .green-card{
 
-    background:#22C55E;
+    background:#15803D;
 
     color:white;
 
-    padding:20px;
+    padding:25px;
 
     border-radius:18px;
 
-}
+    box-shadow:0 10px 25px rgba(0,0,0,.30);
 
-/* ==========================================================
-INFO CARD
-========================================================== */
+}
 
 .info-card{
 
-    background:white;
+    background:#1E293B;
 
-    color:#0F172A;
+    color:#F8FAFC;
 
-    border:1px solid #E2E8F0;
+    border:1px solid #334155;
+
+    padding:22px;
 
     border-radius:18px;
 
-    padding:20px;
+}
 
-    box-shadow:0 6px 20px rgba(0,0,0,.08);
+.info-card h2,
+.info-card h3,
+.info-card p{
+
+    color:#F8FAFC !important;
 
 }
 
-/* ==========================================================
-FOOTER
-========================================================== */
+/* =========================
+   FOOTER
+========================= */
 
 .footer{
 
-    background:white;
+    background:#111827;
 
-    border-radius:15px;
+    border:1px solid #334155;
 
-    border:1px solid #CBD5E1;
+    border-radius:16px;
 
     padding:20px;
 
-    color:#334155;
-
     text-align:center;
 
-    margin-top:40px;
+    color:#CBD5E1;
+
+}
+
+/* =========================
+   PLOTLY
+========================= */
+
+.js-plotly-plot{
+
+    border-radius:14px;
 
 }
 
 </style>
-
-""",unsafe_allow_html=True)
+""", unsafe_allow_html=True)
