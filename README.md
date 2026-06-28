@@ -172,7 +172,7 @@ Government-Healthcare-Resource-Intelligence-Platform/
 │   └── 5_AI_Prediction.py
 │
 ├── utils/
-│   └── styles.py
+    └── styles.py
 ```
 
 ---
