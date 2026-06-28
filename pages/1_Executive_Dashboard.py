@@ -553,7 +553,7 @@ with c1:
 ({best_healthcare['state']})
 
 Healthcare Density:
-**{best_healthcare['healthcare_density']:.2f}**
+**{float(best_healthcare['healthcare_density']):.2f}**
 
 ---
 
@@ -597,8 +597,7 @@ Anaemia:
 ({worst_healthcare['state']})
 
 Healthcare Density:
-**{worst_healthcare['healthcare_density']:.2f}**
-""")
+**{float(worst_healthcare['healthcare_density']):.2f}**
 
 st.divider()
 
