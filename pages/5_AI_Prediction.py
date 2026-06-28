@@ -4,43 +4,30 @@ import numpy as np
 import joblib
 import plotly.graph_objects as go
 
-# PAGE CONFIG
-st.set_page_config(...)
-
-# LOAD MODEL
-@st.cache_resource
-def load_model():
-    return joblib.load("models/healthcare_priority_model.pkl")
-
-# LOAD DATA
-@st.cache_data
-def load_data():
-    return pd.read_csv("data/processed/healthcare_priority_index.csv")
-
-# CALL FUNCTIONS
-model = load_model()
-df = load_data()
-
-# FEATURE IMPORTANCE
-importance = model.feature_importances_
-
 # ==========================================================
-# PAGE CONFIG
+# PAGE CONFIGURATION
 # ==========================================================
 
 st.set_page_config(
-    page_title="AI Prediction",
+    page_title="AI Healthcare Priority Prediction",
     page_icon="🤖",
-    layout="wide"
+    layout="wide",
+    initial_sidebar_state="expanded"
 )
 
 # ==========================================================
-# LOAD MODEL & DATA
+# LOAD MODEL
 # ==========================================================
 
 @st.cache_resource
 def load_model():
-    return joblib.load("models/healthcare_priority_model.pkl")
+    return joblib.load(
+        "models/healthcare_priority_model.pkl"
+    )
+
+# ==========================================================
+# LOAD DATA
+# ==========================================================
 
 @st.cache_data
 def load_data():
@@ -48,300 +35,453 @@ def load_data():
         "data/processed/healthcare_priority_index.csv"
     )
 
+# ==========================================================
+# LOAD RESOURCES
+# ==========================================================
+
 model = load_model()
 df = load_data()
 
 # ==========================================================
-# PAGE TITLE
+# PAGE HEADER
 # ==========================================================
 
 st.title("🤖 AI Healthcare Priority Prediction")
 
-st.caption(
-    "Predict Healthcare Priority Score using XGBoost"
+st.markdown("""
+Predict the **Healthcare Priority Score** of any district using the
+trained **XGBoost Regression Model**.
+
+Adjust the healthcare indicators below and instantly receive:
+
+- 🎯 Predicted Healthcare Priority Score
+- 🚦 Priority Classification
+- 🏛 Government Recommendation
+- 📊 Feature Importance
+""")
+
+st.divider()
+
+# ==========================================================
+# MODEL INFORMATION
+# ==========================================================
+
+left, right = st.columns([3,1])
+
+with left:
+
+    st.info(
+        """
+**Model Used:** XGBoost Regressor
+
+**Prediction Target:** Healthcare Priority Score
+
+**Model Performance**
+
+• R² Score : **0.94**
+
+• MAE : **1.08**
+
+• RMSE : **1.93**
+"""
+    )
+
+with right:
+
+    st.metric(
+        "Model",
+        "XGBoost"
+    )
+
+    st.metric(
+        "Features",
+        "8"
+    )
+
+    st.metric(
+        "Status",
+        "Ready"
+    )
+
+st.divider()
+
+# ==========================================================
+# HEALTHCARE INPUT FORM
+# ==========================================================
+
+st.subheader("📝 Healthcare Indicator Input")
+
+with st.form("prediction_form"):
+
+    col1, col2 = st.columns(2)
+
+    with col1:
+
+        population_per_health_centre = st.number_input(
+            "Population per Health Centre",
+            min_value=1000.0,
+            max_value=100000.0,
+            value=25000.0,
+            step=500.0,
+            help="Average population served by one health centre."
+        )
+
+        vaccination = st.slider(
+            "Vaccination Coverage (%)",
+            min_value=0.0,
+            max_value=100.0,
+            value=80.0,
+            step=0.5
+        )
+
+        anaemia = st.slider(
+            "Anaemia (%)",
+            min_value=0.0,
+            max_value=100.0,
+            value=40.0,
+            step=0.5
+        )
+
+        stunted = st.slider(
+            "Stunted Children (%)",
+            min_value=0.0,
+            max_value=100.0,
+            value=30.0,
+            step=0.5
+        )
+
+    with col2:
+
+        underweight = st.slider(
+            "Underweight Children (%)",
+            min_value=0.0,
+            max_value=100.0,
+            value=25.0,
+            step=0.5
+        )
+
+        female_literacy = st.slider(
+            "Female Literacy (%)",
+            min_value=0.0,
+            max_value=100.0,
+            value=75.0,
+            step=0.5
+        )
+
+        institutional_birth = st.slider(
+            "Institutional Birth (%)",
+            min_value=0.0,
+            max_value=100.0,
+            value=85.0,
+            step=0.5
+        )
+
+        antenatal_care = st.slider(
+            "Antenatal Care (%)",
+            min_value=0.0,
+            max_value=100.0,
+            value=80.0,
+            step=0.5
+        )
+
+    predict_btn = st.form_submit_button(
+        "🚀 Predict Healthcare Priority",
+        use_container_width=True
+    )
+
+# ==========================================================
+# CREATE INPUT DATAFRAME
+# ==========================================================
+
+input_df = pd.DataFrame({
+
+    "population_per_health_centre":[population_per_health_centre],
+
+    "vaccination":[vaccination],
+
+    "anaemia":[anaemia],
+
+    "stunted":[stunted],
+
+    "underweight":[underweight],
+
+    "female_literacy":[female_literacy],
+
+    "institutional_birth":[institutional_birth],
+
+    "antenatal_care":[antenatal_care]
+
+})
+
+st.subheader("📋 Input Summary")
+
+st.dataframe(
+    input_df,
+    use_container_width=True,
+    hide_index=True
 )
 
 st.divider()
 
 # ==========================================================
-# USER INPUT
+# PREDICTION ENGINE
 # ==========================================================
 
-st.subheader("📝 Enter Healthcare Indicators")
+if predict_btn:
 
-col1, col2 = st.columns(2)
+    # ------------------------------------------------------
+    # PREDICT HEALTHCARE PRIORITY SCORE
+    # ------------------------------------------------------
 
-with col1:
+    prediction = float(model.predict(input_df)[0])
 
-    population_per_health_centre = st.number_input(
-        "Population per Health Centre",
-        min_value=1000.0,
-        max_value=100000.0,
-        value=25000.0
-    )
+    prediction = round(prediction, 2)
 
-    vaccination = st.slider(
-        "Vaccination (%)",
-        0.0,
-        100.0,
-        80.0
-    )
-
-    anaemia = st.slider(
-        "Anaemia (%)",
-        0.0,
-        100.0,
-        40.0
-    )
-
-    stunted = st.slider(
-        "Stunted (%)",
-        0.0,
-        100.0,
-        30.0
-    )
-
-with col2:
-
-    underweight = st.slider(
-        "Underweight (%)",
-        0.0,
-        100.0,
-        25.0
-    )
-
-    female_literacy = st.slider(
-        "Female Literacy (%)",
-        0.0,
-        100.0,
-        75.0
-    )
-
-    institutional_birth = st.slider(
-        "Institutional Birth (%)",
-        0.0,
-        100.0,
-        85.0
-    )
-
-    antenatal_care = st.slider(
-        "Antenatal Care (%)",
-        0.0,
-        100.0,
-        80.0
-    )
-
-st.divider()
-
-# ==========================================================
-# PREDICTION
-# ==========================================================
-
-if st.button("🚀 Predict Healthcare Priority", use_container_width=True):
-
-    input_data = pd.DataFrame({
-
-        "population_per_health_centre":[population_per_health_centre],
-
-        "vaccination":[vaccination],
-
-        "anaemia":[anaemia],
-
-        "stunted":[stunted],
-
-        "underweight":[underweight],
-
-        "female_literacy":[female_literacy],
-
-        "institutional_birth":[institutional_birth],
-
-        "antenatal_care":[antenatal_care]
-
-    })
-
-    prediction = float(model.predict(input_data)[0])
-
-    # ============================================
-    # Priority Level
-    # (Use same thresholds as your notebook)
-    # ============================================
+    # ------------------------------------------------------
+    # PRIORITY CLASSIFICATION
+    # (Use the same thresholds as your notebook)
+    # ------------------------------------------------------
 
     if prediction >= 40:
 
         priority = "Critical"
 
-        color = "red"
+        badge = "🔴"
 
-        recommendation = """
-🚨 Immediate Government Intervention
+        gauge_color = "#DC2626"
 
-• Build Additional PHCs
-
-• Recruit Doctors
-
-• Nutrition Programme
-
-• Vaccination Drive
-
-• Increase Healthcare Budget
-"""
+        recommendation = [
+            "Increase healthcare budget immediately",
+            "Construct additional Primary Health Centres",
+            "Recruit doctors, nurses and specialists",
+            "Launch emergency vaccination campaign",
+            "Strengthen nutrition & anaemia programmes"
+        ]
 
     elif prediction >= 20:
 
         priority = "High"
 
-        color = "orange"
+        badge = "🟠"
 
-        recommendation = """
-⚠ Strengthen Existing Healthcare
+        gauge_color = "#F97316"
 
-• Increase Medical Staff
-
-• Improve Maternal Care
-
-• Vaccination Campaign
-
-• Community Awareness
-"""
+        recommendation = [
+            "Upgrade existing healthcare facilities",
+            "Increase medical workforce",
+            "Improve maternal healthcare",
+            "Expand preventive healthcare programmes",
+            "Increase public health awareness"
+        ]
 
     elif prediction >= 10:
 
         priority = "Medium"
 
-        color = "gold"
+        badge = "🟡"
 
-        recommendation = """
-🟡 Preventive Healthcare
+        gauge_color = "#EAB308"
 
-• Monitor Healthcare Indicators
-
-• Improve Infrastructure
-
-• Awareness Programmes
-"""
+        recommendation = [
+            "Monitor healthcare indicators regularly",
+            "Improve preventive healthcare",
+            "Strengthen awareness programmes",
+            "Review healthcare resources periodically"
+        ]
 
     else:
 
         priority = "Low"
 
-        color = "green"
+        badge = "🟢"
 
-        recommendation = """
-🟢 Continue Existing Services
+        gauge_color = "#22C55E"
 
-• Routine Monitoring
+        recommendation = [
+            "Maintain existing healthcare infrastructure",
+            "Continue preventive healthcare",
+            "Perform routine monitoring",
+            "Focus on long-term healthcare planning"
+        ]
 
-• Preventive Healthcare
+    # ------------------------------------------------------
+    # PREDICTION RESULTS
+    # ------------------------------------------------------
 
-• Maintain Infrastructure
-"""
+    st.subheader("🎯 Prediction Results")
 
-    st.divider()
-
-    # =====================================================
-    # RESULTS
-    # =====================================================
-
-    c1, c2 = st.columns(2)
+    c1, c2, c3 = st.columns(3)
 
     with c1:
 
         st.metric(
-            "Predicted Priority Score",
-            round(prediction,2)
-        )
-
-        st.metric(
-            "Priority Level",
-            priority
+            "Healthcare Priority Score",
+            f"{prediction:.2f}"
         )
 
     with c2:
 
-        fig = go.Figure(
-
-            go.Indicator(
-
-                mode="gauge+number",
-
-                value=prediction,
-
-                title={"text":"Healthcare Priority Score"},
-
-                gauge={
-
-                    "axis":{"range":[0,60]},
-
-                    "bar":{"color":color},
-
-                    "steps":[
-
-                        {"range":[0,10],"color":"#2ECC71"},
-
-                        {"range":[10,20],"color":"#F1C40F"},
-
-                        {"range":[20,40],"color":"#F39C12"},
-
-                        {"range":[40,60],"color":"#E74C3C"}
-
-                    ]
-
-                }
-
-            )
-
+        st.metric(
+            "Priority Level",
+            f"{badge} {priority}"
         )
 
-        fig.update_layout(height=350)
+    with c3:
 
-        st.plotly_chart(
-            fig,
-            use_container_width=True
+        st.metric(
+            "Model Used",
+            "XGBoost"
         )
 
     st.divider()
 
-    # =====================================================
-    # AI RECOMMENDATION
-    # =====================================================
+# ==========================================================
+# HEALTHCARE PRIORITY GAUGE
+# ==========================================================
 
-    st.subheader("🤖 AI Recommendation")
+    st.subheader("📊 Healthcare Priority Gauge")
 
-    st.success(recommendation)
+    gauge = go.Figure(
+
+        go.Indicator(
+
+            mode="gauge+number",
+
+            value=prediction,
+
+            number={"suffix":""},
+
+            title={"text":"Healthcare Priority Score"},
+
+            gauge={
+
+                "axis":{"range":[0,60]},
+
+                "bar":{"color":gauge_color},
+
+                "steps":[
+
+                    {"range":[0,10],"color":"#22C55E"},
+
+                    {"range":[10,20],"color":"#EAB308"},
+
+                    {"range":[20,40],"color":"#F97316"},
+
+                    {"range":[40,60],"color":"#DC2626"}
+
+                ]
+
+            }
+
+        )
+
+    )
+
+    gauge.update_layout(height=420)
+
+    st.plotly_chart(
+        gauge,
+        use_container_width=True
+    )
 
     st.divider()
 
 # ==========================================================
-# FEATURE IMPORTANCE
+# AI DECISION SUPPORT
 # ==========================================================
 
-st.subheader("📊 Model Features")
+    st.subheader("🤖 AI Decision Support")
+
+    left, right = st.columns([2,1])
+
+    with left:
+
+        st.success("### Recommended Government Actions")
+
+        for item in recommendation:
+
+            st.write(f"✅ {item}")
+
+    with right:
+
+        st.info(f"""
+### Risk Summary
+
+Priority Level
+
+**{priority}**
+
+Predicted Score
+
+**{prediction:.2f}**
+
+Model
+
+**XGBoost Regression**
+""")
+
+    st.divider()
+
+# ==========================================================
+# INPUT vs PREDICTION
+# ==========================================================
+
+    st.subheader("📋 Prediction Summary")
+
+    result = input_df.copy()
+
+    result["Predicted Priority Score"] = prediction
+
+    result["Priority Level"] = priority
+
+    st.dataframe(
+
+        result,
+
+        use_container_width=True,
+
+        hide_index=True
+
+    )
+
+    st.divider()
+
+# ==========================================================
+# XGBOOST FEATURE IMPORTANCE
+# ==========================================================
+
+st.subheader("📈 XGBoost Feature Importance")
 
 feature_df = pd.DataFrame({
 
     "Feature":[
+
         "Population per Health Centre",
+
         "Vaccination",
+
         "Anaemia",
+
         "Stunted",
+
         "Underweight",
+
         "Female Literacy",
+
         "Institutional Birth",
+
         "Antenatal Care"
+
     ],
 
-    "Importance":[
-        0.32,
-        0.18,
-        0.14,
-        0.10,
-        0.08,
-        0.07,
-        0.06,
-        0.05
-    ]
+    "Importance": model.feature_importances_
 
 })
+
+feature_df = feature_df.sort_values(
+    "Importance",
+    ascending=True
+)
 
 fig = go.Figure()
 
@@ -353,7 +493,11 @@ fig.add_trace(
 
         y=feature_df["Feature"],
 
-        orientation="h"
+        orientation="h",
+
+        text=feature_df["Importance"].round(3),
+
+        textposition="outside"
 
     )
 
@@ -361,13 +505,15 @@ fig.add_trace(
 
 fig.update_layout(
 
-    title="Model Input Features",
+    title="Feature Importance Learned by XGBoost",
 
-    height=450,
+    height=500,
+
+    xaxis_title="Importance",
 
     yaxis_title="",
 
-    xaxis_title="Relative Importance"
+    template="plotly_white"
 
 )
 
@@ -379,105 +525,90 @@ st.plotly_chart(
 st.divider()
 
 # ==========================================================
-# MODEL INFORMATION
+# MODEL PERFORMANCE
 # ==========================================================
 
-st.subheader("ℹ Model Information")
+st.subheader("🏆 Model Performance")
 
-c1, c2 = st.columns(2)
+m1, m2, m3 = st.columns(3)
 
-with c1:
+with m1:
 
-    st.info("""
-### Machine Learning Model
+    st.metric(
+        "R² Score",
+        "0.9414"
+    )
 
-✅ XGBoost Regressor
+with m2:
 
-Target Variable
+    st.metric(
+        "MAE",
+        "1.0813"
+    )
 
-Healthcare Priority Score
+with m3:
 
-Training Features
+    st.metric(
+        "RMSE",
+        "1.9257"
+    )
 
-• Population per Health Centre
+st.success("""
+### Model Summary
 
-• Vaccination
+✔ Best Performing Model : **XGBoost Regression**
 
-• Anaemia
+✔ Higher accuracy than Random Forest
 
-• Stunted
+✔ Captures complex healthcare relationships
 
-• Underweight
+✔ Suitable for decision-support systems
 
-• Female Literacy
-
-• Institutional Birth
-
-• Antenatal Care
-""")
-
-with c2:
-
-    st.success("""
-### Model Performance
-
-R² Score : 0.94
-
-Algorithm : XGBoost
-
-Prediction Type
-
-Regression
-
-Deployment
-
-Streamlit Community Cloud
+✔ Successfully deployed using Streamlit
 """)
 
 st.divider()
 
 # ==========================================================
-# DOWNLOAD SAMPLE INPUT
+# DOWNLOAD REPORT
 # ==========================================================
 
-st.subheader("📥 Download Sample Input")
+st.subheader("📥 Download Prediction Report")
 
-sample = pd.DataFrame({
+if predict_btn:
 
-"population_per_health_centre":[25000],
+    report = result.copy()
 
-"vaccination":[80],
+    csv = report.to_csv(index=False).encode("utf-8")
 
-"anaemia":[40],
+    st.download_button(
 
-"stunted":[30],
+        label="⬇ Download Prediction Report",
 
-"underweight":[25],
+        data=csv,
 
-"female_literacy":[75],
+        file_name="Healthcare_Priority_Prediction_Report.csv",
 
-"institutional_birth":[85],
+        mime="text/csv",
 
-"antenatal_care":[80]
+        use_container_width=True
 
-})
-
-csv = sample.to_csv(index=False).encode("utf-8")
-
-st.download_button(
-
-"⬇ Download Sample CSV",
-
-csv,
-
-"sample_prediction_input.csv",
-
-"text/csv"
-
-)
+    )
 
 st.divider()
+
+# ==========================================================
+# FOOTER
+# ==========================================================
+
+st.markdown("---")
 
 st.caption(
-"Government Healthcare Resource Intelligence Platform | AI Prediction"
+"""
+Government Healthcare Resource Intelligence Platform
+
+AI Prediction Module • XGBoost • Streamlit • Plotly
+
+© 2026
+"""
 )
