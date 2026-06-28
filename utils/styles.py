@@ -1,219 +1,205 @@
 import streamlit as st
 
-def apply_styles():
+def load_css():
 
     st.markdown("""
-    <style>
 
-    /* ------------------------------------------------ */
-    /* Hide Streamlit Default Menu                       */
-    /* ------------------------------------------------ */
+<style>
 
-    #MainMenu{
-        visibility:hidden;
-    }
+/* ==========================================================
+GENERAL
+========================================================== */
 
-    footer{
-        visibility:hidden;
-    }
+html, body, [class*="css"]{
 
-    header{
-        visibility:hidden;
-    }
+    background:#F8FAFC;
+    color:#0F172A;
+    font-family:'Segoe UI',sans-serif;
 
-    /* ------------------------------------------------ */
-    /* Main App                                         */
-    /* ------------------------------------------------ */
+}
 
-    .main{
-        background-color:#F4F8FC;
-    }
+/* ==========================================================
+HEADINGS
+========================================================== */
 
-    .block-container{
-        padding-top:1rem;
-        padding-left:2rem;
-        padding-right:2rem;
-        padding-bottom:2rem;
-    }
+h1{
+    color:#0F172A !important;
+    font-weight:700;
+}
 
-    /* ------------------------------------------------ */
-    /* Hero Section                                     */
-    /* ------------------------------------------------ */
+h2{
+    color:#1E293B !important;
+    font-weight:700;
+}
 
-    .hero{
+h3{
+    color:#334155 !important;
+    font-weight:600;
+}
 
-        background:linear-gradient(135deg,#0B3C5D,#328CC1);
+p{
+    color:#475569 !important;
+    font-size:17px;
+}
 
-        padding:35px;
+/* ==========================================================
+SIDEBAR
+========================================================== */
 
-        border-radius:20px;
+section[data-testid="stSidebar"]{
 
-        color:white;
+    background:#0F172A;
 
-        text-align:center;
+}
 
-        margin-bottom:25px;
+section[data-testid="stSidebar"] *{
 
-        box-shadow:0 8px 20px rgba(0,0,0,.18);
+    color:white !important;
 
-    }
+}
 
-    .hero h1{
+/* ==========================================================
+METRIC CARDS
+========================================================== */
 
-        font-size:42px;
+div[data-testid="metric-container"]{
 
-        font-weight:bold;
+    background:white;
 
-        margin-bottom:10px;
+    border-radius:15px;
 
-    }
+    padding:15px;
 
-    .hero p{
+    border:1px solid #E2E8F0;
 
-        font-size:18px;
+    box-shadow:0 4px 15px rgba(0,0,0,.08);
 
-    }
+}
 
-    /* ------------------------------------------------ */
-    /* Section Card                                     */
-    /* ------------------------------------------------ */
+/* ==========================================================
+BUTTON
+========================================================== */
 
-    .section{
+.stButton>button{
 
-        background:white;
+    background:#2563EB;
 
-        border-radius:18px;
+    color:white;
 
-        padding:25px;
+    border:none;
 
-        margin-bottom:20px;
+    border-radius:10px;
 
-        box-shadow:0 4px 15px rgba(0,0,0,.08);
+    padding:12px;
 
-    }
+    font-weight:bold;
 
-    /* ------------------------------------------------ */
-    /* KPI Cards                                        */
-    /* ------------------------------------------------ */
+}
 
-    div[data-testid="metric-container"]{
+.stButton>button:hover{
 
-        background:white;
+    background:#1D4ED8;
 
-        border-radius:15px;
+}
 
-        padding:18px;
+/* ==========================================================
+DATAFRAME
+========================================================== */
 
-        box-shadow:0 4px 15px rgba(0,0,0,.10);
+div[data-testid="stDataFrame"]{
 
-        border-left:6px solid #0B3C5D;
+    border-radius:12px;
 
-    }
+    border:1px solid #CBD5E1;
 
-    div[data-testid="metric-container"]:hover{
+}
 
-        transform:translateY(-4px);
+/* ==========================================================
+SUCCESS
+========================================================== */
 
-        transition:.3s;
+div[data-testid="stAlert"]{
 
-    }
+    border-radius:12px;
 
-    /* ------------------------------------------------ */
-    /* Sidebar                                          */
-    /* ------------------------------------------------ */
+}
 
-    section[data-testid="stSidebar"]{
+/* ==========================================================
+BLUE CARD
+========================================================== */
 
-        background:#0B3C5D;
+.blue-card{
 
-    }
+    background:#2563EB;
 
-    section[data-testid="stSidebar"] *{
+    color:white;
 
-        color:white;
+    padding:25px;
 
-    }
+    border-radius:18px;
 
-    /* ------------------------------------------------ */
-    /* Buttons                                          */
-    /* ------------------------------------------------ */
+    box-shadow:0 10px 25px rgba(0,0,0,.15);
 
-    .stButton>button{
+}
 
-        width:100%;
+/* ==========================================================
+GREEN CARD
+========================================================== */
 
-        background:#0B3C5D;
+.green-card{
 
-        color:white;
+    background:#22C55E;
 
-        border:none;
+    color:white;
 
-        border-radius:10px;
+    padding:20px;
 
-        font-weight:bold;
+    border-radius:18px;
 
-        height:45px;
+}
 
-    }
+/* ==========================================================
+INFO CARD
+========================================================== */
 
-    .stButton>button:hover{
+.info-card{
 
-        background:#1976D2;
+    background:white;
 
-        color:white;
+    color:#0F172A;
 
-    }
+    border:1px solid #E2E8F0;
 
-    /* ------------------------------------------------ */
-    /* Download Button                                  */
-    /* ------------------------------------------------ */
+    border-radius:18px;
 
-    .stDownloadButton>button{
+    padding:20px;
 
-        width:100%;
+    box-shadow:0 6px 20px rgba(0,0,0,.08);
 
-        background:#2E7D32;
+}
 
-        color:white;
+/* ==========================================================
+FOOTER
+========================================================== */
 
-        border:none;
+.footer{
 
-        border-radius:10px;
+    background:white;
 
-        font-weight:bold;
+    border-radius:15px;
 
-        height:45px;
+    border:1px solid #CBD5E1;
 
-    }
+    padding:20px;
 
-    /* ------------------------------------------------ */
-    /* Dataframe                                        */
-    /* ------------------------------------------------ */
+    color:#334155;
 
-    div[data-testid="stDataFrame"]{
+    text-align:center;
 
-        border-radius:15px;
+    margin-top:40px;
 
-        overflow:hidden;
+}
 
-    }
+</style>
 
-    /* ------------------------------------------------ */
-    /* Footer                                           */
-    /* ------------------------------------------------ */
-
-    .footer{
-
-        text-align:center;
-
-        color:gray;
-
-        font-size:14px;
-
-        margin-top:30px;
-
-    }
-
-    </style>
-
-    """, unsafe_allow_html=True)
+""",unsafe_allow_html=True)
